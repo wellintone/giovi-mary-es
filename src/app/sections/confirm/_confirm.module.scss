@@ -1,0 +1,105 @@
+.confirm {
+  padding: $base-padding * 4 $base-padding;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  color: $background;
+  text-align: center;
+
+  &__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__input {
+    position: relative;
+    z-index: 99;
+  }
+
+  &__btn {
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+  }
+
+  &__bg {
+    &-svg {
+      background-color: rgb(255, 140, 105);
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      opacity: 1;
+      transform: scale(1);
+      object-fit: contain;
+
+      path {
+        opacity: 0.5;
+        fill: color-mix(in srgb, #ff8c69 80%, black);
+      }
+    }
+
+    & > img {
+      object-fit: cover;
+
+      z-index: 0;
+    }
+  }
+
+  &__title {
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+  }
+
+  /* &__rings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    &-svg {
+      margin: 20px;
+      color: $background;
+      fill: $background;
+      z-index: 10;
+    }
+
+    &::before,
+    &::after {
+      display: inline-block;
+      content: "";
+      border-top: 0.1rem solid $background;
+      width: 5rem;
+      z-index: 10;
+    }
+  } */
+  &__date {
+    font-size: $font-2xl;
+    z-index: 10;
+  }
+  &__remain {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    z-index: 10;
+    &-date {
+      padding: 20px;
+      border: 2px solid $background;
+      font-size: $font-2xl;
+      z-index: 10;
+      text-align: center;
+    }
+  }
+
+  &__desc {
+    padding-top: $base-padding * 4;
+    text-align: center;
+    z-index: 10;
+  }
+}

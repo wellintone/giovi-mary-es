@@ -1,0 +1,42 @@
+[
+  {
+    "day": "1",
+    "month": "March",
+    "year": "2025",
+    "author": "Admin",
+    "type_news": "Web",
+    "title": "Cos'è la SEO?",
+    "image": "/img/seo.jpg",
+    "link": "/"
+  },
+  {
+    "day": "7",
+    "month": "June",
+    "year": "2025",
+    "author": "Admin",
+    "type_news": "Web",
+    "title": "Perchè non vedo il mio sito?",
+    "image": "/img/dontsee.jpg",
+    "link": "/"
+  },
+  {
+    "day": "13",
+    "month": "January",
+    "year": "2025",
+    "author": "Admin",
+    "type_news": "Web",
+    "title": "Performance web",
+    "image": "/img/performance.jpg",
+    "link": "/"
+  },
+  {
+    "day": "15",
+    "month": "May",
+    "year": "2025",
+    "author": "Admin",
+    "type_news": "Web",
+    "title": "l'importanza del brand",
+    "image": "/img/brand.jpg",
+    "link": "/"
+  }
+]

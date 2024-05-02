@@ -1,0 +1,19 @@
+.inputField {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+
+  label {
+    font-size: clamp($font-lg, 10vw, $font-2xl);
+  }
+
+  input {
+    height: 40px;
+    width: 100%;
+
+    &::placeholder {
+      padding: 10px;
+    }
+  }
+}

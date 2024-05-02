@@ -1,0 +1,26 @@
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: $base-padding * 4 $base-padding * 2;
+  position: relative;
+  gap: 10px;
+  text-align: center;
+
+  .subtitle {
+    color: $primary;
+    font-weight: 700;
+    @include shadowIntoLight;
+  }
+
+  .mainTitle {
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .followLine {
+    transform: rotate(90deg);
+    bottom: -10px;
+  }
+}

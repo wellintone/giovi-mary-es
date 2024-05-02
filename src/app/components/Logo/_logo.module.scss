@@ -1,0 +1,81 @@
+.logo {
+  position: relative;
+  border-top: 9px solid $on-background;
+  border-right: 9px solid $on-background;
+  border-left: 9px solid $on-background;
+  border-bottom: 9px solid $on-background;
+  border-radius: 100%;
+  min-width: 50px;
+  min-height: 50px;
+
+  @include md {
+    min-width: 60px;
+    min-height: 60px;
+    border-top: 11px solid $on-background;
+    border-right: 11px solid $on-background;
+    border-left: 11px solid $on-background;
+    border-bottom: 11px solid $on-background;
+  }
+  @include lg {
+    min-width: 70px;
+    min-height: 70px;
+    border-top: 12px solid $on-background;
+    border-right: 12px solid $on-background;
+    border-left: 12px solid $on-background;
+    border-bottom: 12px solid $on-background;
+  }
+  /*  margin: 50px auto; */
+  cursor: pointer;
+  transition: 1s ease-in-out;
+
+  &:hover {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+    transition: animation 1s ease-in-out;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left;
+    transform: translate(0%, -50%) rotate(-45deg);
+    min-width: 25px;
+    min-height: 9px;
+    background-color: $primary;
+    box-shadow: $box-shadow-thin;
+    transition: all 1s ease-in-out;
+
+    @include md {
+      min-width: 30px;
+      min-height: 11px;
+    }
+    @include lg {
+      min-width: 35px;
+      min-height: 12px;
+    }
+  }
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition: 1s ease-in-out;
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: 1s ease-in-out;
+  }
+}

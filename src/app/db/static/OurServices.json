@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "icon": "/icons/target.png",
+    "image": "/img/seo.jpg",
+    "title": "SEO",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit Labore quo quam officia atque reprehenderit assumenda, suscipit, deleniti quisquam",
+    "link": "seo",
+    "paragraphs": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae voluptatibus inventore fuga velit minima dignissimos est labore nesciunt error, obcaecati quam dolor et corrupti vero aliquid in assumenda consectetur!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae voluptatibus inventore fuga velit minima dignissimos est labore nesciunt error, obcaecati quam dolor et corrupti vero aliquid in assumenda consectetur!"
+    ],
+    "technologies": ["SEO1", "SEO2", "SEO3", "SEO4", "SEO5"]
+  },
+  {
+    "id": 2,
+    "icon": "/icons/social-media.png",
+    "image": "/img/socialmedia.jpg",
+    "title": "Social Media",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit Labore quo quam officia atque reprehenderit assumenda, suscipit, deleniti quisquam",
+    "link": "social-media",
+    "paragraphs": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae voluptatibus inventore fuga velit minima dignissimos est labore nesciunt error, obcaecati quam dolor et corrupti vero aliquid in assumenda consectetur!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae voluptatibus inventore fuga velit minima dignissimos est labore nesciunt error, obcaecati quam dolor et corrupti vero aliquid in assumenda consectetur!"
+    ],
+    "technologies": ["FaceBook", "TickTock", "Linkedin", "Instagram"]
+  },
+  {
+    "id": 3,
+    "icon": "/icons/world-wide-web.png",
+    "image": "/img/web-development.jpg",
+    "title": "Web Development",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit Labore quo quam officia atque reprehenderit assumenda, suscipit, deleniti quisquam",
+    "link": "web-development",
+    "paragraphs": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae voluptatibus inventore fuga velit minima dignissimos est labore nesciunt error, obcaecati quam dolor et corrupti vero aliquid in assumenda consectetur!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae voluptatibus inventore fuga velit minima dignissimos est labore nesciunt error, obcaecati quam dolor et corrupti vero aliquid in assumenda consectetur!"
+    ],
+    "technologies": ["React", "NextJs", "WordPress", "Html", "Css"]
+  },
+  {
+    "id": 4,
+    "icon": "/icons/brand-image.png",
+    "image": "/img/brand-identity.jpg",
+    "title": "Brand Identity",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit Labore quo quam officia atque reprehenderit assumenda, suscipit, deleniti quisquam",
+    "link": "brand-identity",
+    "paragraphs": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae voluptatibus inventore fuga velit minima dignissimos est labore nesciunt error, obcaecati quam dolor et corrupti vero aliquid in assumenda consectetur!",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repudiandae voluptatibus inventore fuga velit minima dignissimos est labore nesciunt error, obcaecati quam dolor et corrupti vero aliquid in assumenda consectetur!"
+    ],
+    "technologies": ["New Brand", "Photos", "Videos", "CopyRight"]
+  }
+]

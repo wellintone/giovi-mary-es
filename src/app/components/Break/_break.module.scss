@@ -1,0 +1,38 @@
+.break {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+
+  &-svg {
+    margin: 20px;
+    color: $on-primary;
+    fill: $on-primary;
+    z-index: 10;
+  }
+
+  &::before,
+  &::after {
+    display: inline-block;
+    content: "";
+    border-top: 0.1rem solid $on-primary;
+    width: 5rem;
+    z-index: 10;
+  }
+
+  &-svg-orange {
+    margin: 20px;
+    color: #ff8c69 !important;
+    fill: #ff8c69 !important;
+    z-index: 10;
+  }
+
+  &::before,
+  &::after {
+    display: inline-block;
+    content: "";
+    border-top: 0.1rem solid #ff8c69 !important;
+    width: 5rem;
+    z-index: 10;
+  }
+}

@@ -1,0 +1,64 @@
+$font-9xl: 8rem;
+$font-8xl: 6rem;
+$font-7xl: 4.5rem;
+$font-6xl: 3.75rem;
+$font-5xl: 3rem;
+$font-4xl: 2.25rem;
+$font-3xl: 1.875rem;
+$font-2xl: 1.5rem;
+$font-xl: 1.25rem;
+$font-lg: 1.125rem;
+$font-base: 1rem;
+$font-sm: 0.875rem;
+$font-xs: 0.75rem;
+
+h1 {
+  font-size: clamp($font-7xl, 10vw, $font-9xl);
+  line-height: 1;
+}
+
+h2 {
+  font-size: clamp($font-xl, 10vw, $font-4xl);
+  line-height: 1;
+  font-family: var(--font-shadows_into_light);
+}
+h3 {
+  font-size: clamp($font-sm, 10vw, $font-lg);
+  line-height: 1;
+}
+p {
+  /*  color: $on-background; */
+  font-size: clamp($font-base, 10vw, $font-lg);
+}
+/*
+
+.txt-9xl,
+.txt-8xl,
+.txt-7xl,
+.txt-6xl,
+.txt-5xl {
+  line-height: 1.1;
+}
+.txt-4xl,
+.txt-3xl {
+  line-height: 2.5rem;
+  line-height: 2.5rem;
+}
+.txt-2xl {
+  line-height: 2rem;
+}
+.txt-xl,
+.txt-lg {
+  line-height: 1.75rem;
+}
+
+.txt-lg {
+  line-height: 1.5rem;
+}
+.txt-sm {
+  line-height: 1.25rem;
+}
+.txt-xs {
+  line-height: 1rem;
+}
+ */

@@ -1,0 +1,72 @@
+.heroPages {
+  height: 60vh;
+  width: 100%;
+  position: relative;
+
+  &__bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__overlay {
+    background-color: rgba(0, 0, 0, 0.446);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+  }
+
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    font-size: clamp($font-xs, 10vw, $font-sm);
+
+    &-title {
+      font-weight: 900;
+      text-align: center;
+    }
+
+    &-activate {
+      pointer-events: none;
+      & > a {
+        color: $primary !important;
+      }
+      font-size: clamp($font-xs, 10vw, $font-sm);
+    }
+
+    &-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    &-list {
+      font-weight: 900;
+      list-style: none;
+
+      & > a {
+        &:visited {
+          color: white;
+        }
+        font-size: clamp($font-xs, 10vw, $font-sm);
+        text-decoration: none;
+      }
+    }
+  }
+}

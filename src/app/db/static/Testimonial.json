@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/img/wellington.jpg",
+    "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime deleniti officiis iusto ullam necessitatibus sed ut commodi architecto totam temporibus qui corporis quas veniam, omnis harum suscipit culpa unde explicabo.",
+    "name": "Wellington Pecchini",
+    "work": "Consulting"
+  },
+  {
+    "image": "/img/amalia.jpg",
+    "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime deleniti officiis iusto ullam necessitatibus sed ut commodi architecto totam temporibus qui corporis quas veniam, omnis harum suscipit culpa unde explicabo.",
+    "name": "Amalia Cipriani",
+    "work": "lawyer Company"
+  },
+  {
+    "image": "/img/alessandro.jpg",
+    "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime deleniti officiis iusto ullam necessitatibus sed ut commodi architecto totam temporibus qui corporis quas veniam, omnis harum suscipit culpa unde explicabo.",
+    "name": "Alessandro Pravato",
+    "work": "Haircut Company"
+  },
+  {
+    "image": "/img/fre.jpg",
+    "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime deleniti officiis iusto ullam necessitatibus sed ut commodi architecto totam temporibus qui corporis quas veniam, omnis harum suscipit culpa unde explicabo.",
+    "name": "Francesca",
+    "work": "Influencer"
+  }
+]

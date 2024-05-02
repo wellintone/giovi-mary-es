@@ -1,0 +1,20 @@
+.summary {
+  &__list {
+    list-style: none;
+    list-style-position: inside;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+    }
+    li::before {
+      content: "✓" !important;
+      font-family: "ETMODULES" !important;
+      color: $primary;
+      display: inline-block;
+      width: 1rem;
+      margin-right: 10px;
+      font-size: $font-2xl;
+    }
+  }
+}

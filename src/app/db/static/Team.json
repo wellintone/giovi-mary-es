@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/img/wellington.jpg",
+    "name": "Wellington Pecchini",
+    "work": "CEO",
+    "link": "wellington-pecchini"
+  },
+  {
+    "image": "/img/amalia.jpg",
+    "name": "Amalia Cipriani",
+    "work": "Social Media Manager",
+    "link": "amalia-cipriani"
+  },
+  {
+    "image": "/img/alessandro.jpg",
+    "name": "Alessandro Pravato",
+    "work": "Designer",
+    "link": "alessandro-pravato"
+  },
+  {
+    "image": "/img/fre.jpg",
+    "name": "Francesca Poggioli",
+    "work": "Photographer",
+    "link": "francesca-poggioli"
+  }
+]

@@ -1,0 +1,18 @@
+.socials {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+
+  &-wrapper {
+    display: flex;
+    background-color: $on-background;
+    position: relative;
+    padding: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 3px solid $primary;
+    margin-top: 10px;
+  }
+}

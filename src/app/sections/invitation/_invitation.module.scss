@@ -1,0 +1,11 @@
+.invitation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: $base-padding $base-padding * 4;
+  gap: 20px;
+  &__desc {
+    text-align: center;
+  }
+}

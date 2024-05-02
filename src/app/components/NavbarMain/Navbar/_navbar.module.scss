@@ -1,0 +1,103 @@
+@use "sass:math";
+
+@import "./_hamburger.module";
+@import "./_logo.module";
+@import "./_navbar-additional.module";
+@import "./_navbar-link.module";
+@import "./_navbar-links-list.module";
+
+@mixin Navbar($bg: $primary, $color: null) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: $base-padding $base-padding;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  transition: all 0.5s ease-in-out;
+
+  @include sm {
+    padding: $base-padding $base-padding * 2;
+  }
+  @include md {
+    padding: $base-padding $base-padding * 2;
+  }
+  @include lg {
+    padding: $base-padding $base-padding * 6;
+  }
+  @include xl {
+    padding: $base-padding $base-padding * 7;
+  }
+  @include xxl {
+    padding: $base-padding $base-padding * 10;
+  }
+
+  .logo__container {
+    @include xs {
+      margin-right: $base-padding * 2;
+    }
+    @include sm {
+      margin-right: $base-padding * 3;
+    }
+    @include md {
+      margin-right: $base-padding * 3;
+    }
+    @include lg {
+      margin-right: $base-padding * 4;
+    }
+    @include xl {
+      margin-right: $base-padding * 6;
+    }
+    @include xxl {
+      margin-right: $base-padding * 8;
+    }
+  }
+
+  .socials__container {
+    display: none;
+
+    @include lg {
+      display: flex;
+      gap: $base-gap;
+      transition: all 0.2s ease-in-out;
+
+      svg {
+        height: 2rem;
+        width: 2rem;
+        filter: drop-shadow(1px 4px 8px rgba(0, 0, 0, 0.5));
+
+        &:hover {
+          transition: all 0.2s ease-in-out;
+          transform: translateY(-2px);
+          filter: drop-shadow(1px 6px 7px rgba(0, 0, 0, 0.5));
+        }
+
+        &:active {
+          transition: all 0.2s ease-in-out;
+          transform: scale(0.9);
+          filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.8));
+        }
+      }
+    }
+  }
+}
+
+.Navbar {
+  @include Navbar();
+  .responsive_nav {
+    position: fixed;
+    transform: translateY(100vh);
+    background-color: rgba($background, 0.1);
+    width: 100%;
+    z-index: 11;
+    color: black;
+    backdrop-filter: blur(0.7rem);
+  }
+}
+
+.scroll {
+  background-color: $background;
+  transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,25 @@
+.cardPillars {
+  border-radius: $base-border-radius;
+  padding: $base-padding * 4 $base-padding * 2;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: lighten($background, 4);
+
+  .active {
+    background-color: $primary;
+  }
+
+  &__title {
+    font-weight: 900;
+  }
+
+  &__arrowRight {
+    font-size: $font-3xl;
+    margin-bottom: -$base-padding;
+    text-decoration: none;
+    &:visited {
+      color: inherit;
+    }
+  }
+}

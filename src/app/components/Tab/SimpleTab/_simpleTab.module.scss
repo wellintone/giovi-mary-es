@@ -1,0 +1,48 @@
+.simpleTab {
+  position: relative;
+  height: max-content;
+
+  &__btnContainer {
+    display: flex;
+    gap: 30px;
+    border-bottom: 2px solid $primary;
+    & > button {
+      background-color: transparent;
+      color: $on-primary;
+      font-weight: 900;
+      font-size: clamp($font-sm, 10vw, $font-lg);
+    }
+    .btn-active {
+      color: $primary;
+    }
+  }
+  &__contentContainer {
+    overflow: hidden;
+  }
+  &__contentContainer-content {
+    opacity: 0;
+    position: relative;
+    display: none;
+    unicode-bidi: isolate;
+    animation: fade-in 0.8s;
+  }
+  .active {
+    opacity: 1;
+    display: block !important;
+    position: relative;
+    display: block;
+    unicode-bidi: isolate;
+    animation: fade-in 0.8s;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

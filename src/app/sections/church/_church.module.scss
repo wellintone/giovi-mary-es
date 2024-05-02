@@ -1,0 +1,24 @@
+.church {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: $base-padding * 4 $base-padding;
+  gap: 20px;
+  overflow: hidden;
+  &__desc {
+    text-align: center;
+  }
+
+  &__img {
+    height: 300px;
+    width: 100%;
+    position: relative;
+
+    & > img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

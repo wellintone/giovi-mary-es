@@ -9,7 +9,6 @@
 @import "./components/FollowLine/followLine.module";
 @import "./components/SectionsTitle/sectionTitle.module";
 @import "./components/Card/card.module";
-@import "./components/Swiper/customSwiper.module";
 @import "./components/Event/event.module";
 @import "./components/AttachmentBg/attachmentBg.module";
 @import "./components/HeroPages/heroPages.module";
@@ -33,10 +32,6 @@
 @import "./sections/thanks/thanks.module";
 
 /* PAGES */
-@import "./app/\(routes\)/about/about.module";
-@import "./app/\(routes\)/contacts/contacts.module";
-@import "./app/\(routes\)/pricing/pricing.module";
-@import "./app/\(routes\)/dreamTeam/dreamTeam.module";
 .home {
   position: relative;
 }

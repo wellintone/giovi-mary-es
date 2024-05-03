@@ -1,6 +1,5 @@
 import Break from "./components/Break/Break";
 import RingsSvg from "./components/Svgs/Rings";
-import Where from "./sections/where/Where";
 import Church from "./sections/church/Church";
 import Confirm from "./sections/confirm/Confirm";
 import Hero from "./sections/hero/hero";
@@ -9,6 +8,7 @@ import Invitation from "./sections/invitation/Invitation";
 import Place from "./sections/place/Place";
 import Receiving from "./sections/receiving/Receiving";
 import Thanks from "./sections/thanks/Thanks";
+import Where from "./sections/where/Where";
 
 export default function Home() {
   return (

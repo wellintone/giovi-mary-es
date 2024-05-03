@@ -3,7 +3,7 @@ import RingsSvg from "../../components/Svgs/Rings";
 import Bg from "@/app/components/Svgs/Bg";
 import Break from "@/app/components/Break/Break";
 
-const Where = () => {
+const Where2 = () => {
   return (
     <div className="where">
       <div className="where__bg">
@@ -32,4 +32,4 @@ const Where = () => {
   );
 };
 
-export default Where;
+export default Where2;

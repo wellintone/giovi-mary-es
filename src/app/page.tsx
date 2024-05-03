@@ -8,13 +8,13 @@ import Invitation from "./sections/invitation/Invitation";
 import Place from "./sections/place/Place";
 import Receiving from "./sections/receiving/Receiving";
 import Thanks from "./sections/thanks/Thanks";
-import Where from "./sections/where/Where";
+import Where2 from "./sections/where2/Where2";
 
 export default function Home() {
   return (
     <main className="home">
       <Hero />
-      <Where />
+      <Where2 />
       <Invitation />
       <Church />
       <Place />

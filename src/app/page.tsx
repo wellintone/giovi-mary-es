@@ -1,6 +1,6 @@
 import Break from "./components/Break/Break";
 import RingsSvg from "./components/Svgs/Rings";
-import Where from "./sections/Where/Where";
+import Where from "./sections/where/Where";
 import Church from "./sections/church/Church";
 import Confirm from "./sections/confirm/Confirm";
 import Hero from "./sections/hero/hero";

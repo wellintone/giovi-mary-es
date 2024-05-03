@@ -1,6 +1,5 @@
 import React from "react";
 import RingsSvg from "../../components/Svgs/Rings";
-import Image from "next/image";
 import Bg from "@/app/components/Svgs/Bg";
 import Break from "@/app/components/Break/Break";
 

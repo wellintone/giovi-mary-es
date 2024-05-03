@@ -1,11 +1,10 @@
-import { LinksType } from "@/types/links";
 import NavbarLink from "./NavbarLink";
 
 interface ICustomNavLink {
   navRef: string;
   linkColor?: string;
   textBold?: number;
-  links: LinksType[];
+  links: any[];
   customClass?: string;
   onClick: () => void;
 }
@@ -18,7 +17,7 @@ const NavbarLinkList = ({
 }: ICustomNavLink) => {
   return (
     <nav ref={navRef} className={`navbarLinkList ${customClass}`}>
-      {links.map(({ name, route }: LinksType) => (
+      {links.map(({ name, route }: any) => (
         <NavbarLink key={name} route={route} onClick={onClick}>
           {name}
         </NavbarLink>

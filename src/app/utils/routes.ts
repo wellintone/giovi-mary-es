@@ -1,6 +1,4 @@
-import { LinksType } from "@/types/links";
-
-export const Links: LinksType[] = [
+export const Links: any[] = [
   { route: "/", name: "" },
   { route: "/about", name: "Chi sono" },
   { route: "/services", name: "Servizi" },

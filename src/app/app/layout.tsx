@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Roboto, Shadows_Into_Light } from "next/font/google";
 import "./globals.scss";
-import Navbar from "@/components/NavbarMain/Navbar";
-import Footer from "@/components/Footer/Footer";
+
+import Footer from "../components/Footer/Footer";
+import Navbar from "../components/NavbarMain/Navbar";
 
 const roboto_init = Roboto({
   subsets: ["latin"],

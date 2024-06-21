@@ -22,8 +22,8 @@
 
   &-svg-orange {
     margin: 20px;
-    color: #ff8c69 !important;
-    fill: #ff8c69 !important;
+    color: $primary !important;
+    fill: $primary !important;
     z-index: 10;
   }
 
@@ -31,7 +31,7 @@
   &::after {
     display: inline-block;
     content: "";
-    border-top: 0.1rem solid #ff8c69 !important;
+    border-top: 0.1rem solid $primary !important;
     width: 5rem;
     z-index: 10;
   }

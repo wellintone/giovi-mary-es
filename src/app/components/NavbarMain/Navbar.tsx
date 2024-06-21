@@ -3,7 +3,6 @@
 import Hamburger from "./Hamburger";
 import { useEffect, useRef, useState } from "react";
 import NavbarLinkList from "./NavbarLinkList";
-import LogoWellintone from "../Logo/LogoWellintone";
 import { Links } from "@/app/utils/routes";
 
 export type INavbar = {
@@ -50,7 +49,7 @@ function Navbar({ type, linkColor, textBold }: INavbar) {
   return (
     <header
       ref={headerRef}
-      className={` Navbar ${type ? "Navbar-" + type : ""} `}
+      className={`Navbar ${type ? "Navbar-" + type : ""} `}
     >
       <div className="logo__container">{/* <LogoWellintone /> */}</div>
 

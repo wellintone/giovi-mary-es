@@ -1,11 +1,7 @@
 export const Links: any[] = [
   { route: "/", name: "" },
-  { route: "/about", name: "Chi sono" },
-  { route: "/services", name: "Servizi" },
-  { route: "/projects", name: "Progetti" },
-  { route: "/articles", name: "Articoli" },
-  { route: "/faqs", name: "Faqs" },
-  { route: "/contacts", name: "Contatti" },
-  { route: "/pricing", name: "Prezzi" },
-  { route: "/dreamTeam", name: "Team" },
+  { route: "/ilgrandegiorno", name: "Il Grande giorno" },
+  { route: "/presenza", name: "Ci sarai?" },
+  { route: "/cosafare", name: "Cosa da fare" },
+  { route: "/contatti", name: "Contattaci" },
 ];

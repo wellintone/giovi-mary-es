@@ -10,7 +10,7 @@
 
   &__bg {
     &-svg {
-      background-color: rgb(255, 140, 105);
+      background-color: $primary;
       position: absolute;
       top: 0;
       right: 0;
@@ -22,7 +22,7 @@
 
       path {
         opacity: 0.5;
-        fill: color-mix(in srgb, #ff8c69 80%, black);
+        fill: color-mix(in srgb, $primary 80%, black);
       }
     }
 

@@ -3,7 +3,7 @@ import ChurchSvg from "@/app/components/Svgs/Church";
 import Envelope from "@/app/components/Svgs/Envelope";
 import Title from "@/app/components/Title/Title";
 import React from "react";
-import ChurchImg from "/public/img/church.jpeg";
+import ChurchImg from "/public/img/inglesia.jpg";
 import Image from "next/image";
 
 const Church = () => {

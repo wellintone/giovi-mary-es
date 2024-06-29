@@ -8,6 +8,7 @@ import SendEmail from "@/app/components/Svgs/SendEmail";
 import InputField from "@/app/components/InputField/InputField";
 import Button from "@/app/components/Buttons/button";
 import { BUTTON_SIZES, BUTTON_VARIANTS } from "@/app/components/Buttons/enums";
+import ConfirmForm from "./_partial/confirm_form";
 
 const Confirm = () => {
   const [value, setValue] = useState({
@@ -33,7 +34,9 @@ const Confirm = () => {
         <SendEmail stroke="#fff"></SendEmail>
       </Break>
 
-      <form className="confirm__form" action="">
+      <ConfirmForm />
+
+      {/*  <form className="confirm__form" action="">
         <InputField
           className="confirm__input"
           label="Nome e Cognome"
@@ -71,7 +74,7 @@ const Confirm = () => {
         >
           Invia
         </Button>
-      </form>
+      </form> */}
       {/* <div className="confirm__date">2 Nov 2024</div>
       <div className="confirm__remain">
         <div className="confirm__remain-date">19 Giorni</div>

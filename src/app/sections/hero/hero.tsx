@@ -1,5 +1,5 @@
 import React from "react";
-import MG from "/public/img/m&g.jpeg";
+import MG from "/public/img/m&g2.png";
 import AttachmentBg from "@/app/components/AttachmentBg/AttachmentBg";
 
 const Hero = () => {

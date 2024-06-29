@@ -1,9 +1,27 @@
 .iban {
   padding: $base-padding * 4 $base-padding;
+  /*  display: flex;
+  flex-direction: column;
+ */
 
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*  justify-content: space-between; */
+    @include lg {
+      flex-direction: row;
+    }
+  }
   &__desc {
     text-align: center;
-    font-size: clamp($font-base, 10vw, $font-xl);
+    font-size: clamp($font-base, 10vw, $font-3xl);
+    width: 100%;
+    @include lg {
+      width: 40%;
+      text-align: left;
+      margin: 0 auto;
+    }
   }
 
   &__copied {
@@ -14,13 +32,24 @@
     animation: fade-in 0.8s ease-in-out;
   }
 
+  &__container-data {
+    margin: 0 auto;
+  }
+
   &__data {
     margin-top: 60px;
     display: flex;
-    flex-direction: column;
+
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    @include lg {
+      margin-top: 20px;
+      flex-direction: column;
+    }
     &-title {
       text-transform: uppercase;
       font-size: clamp($font-xl, 10vw, $font-4xl);

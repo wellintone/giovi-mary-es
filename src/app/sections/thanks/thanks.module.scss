@@ -19,7 +19,9 @@
       opacity: 1;
       transform: scale(1);
       object-fit: contain;
-
+      @include sm {
+        width: 100%;
+      }
       path {
         opacity: 0.5;
         fill: color-mix(in srgb, $primary 80%, black);

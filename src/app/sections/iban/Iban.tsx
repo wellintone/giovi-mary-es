@@ -9,7 +9,6 @@ const Iban = () => {
   const [copied, setCopied] = useState(false);
 
   const copyClip = (e: any) => {
-    console.log("E", e.target.innerHTML);
     if (e.target.innerHTML) {
       setCopied(true);
       navigator.clipboard.writeText(e.target.innerHTML);
@@ -22,32 +21,41 @@ const Iban = () => {
   };
   return (
     <div className="iban">
-      <Title text="Un vostro pensiero è gradito" isOrange={false} />
-      <Break isOrange={true}>
-        <Gift stroke="#ff8c69" />
-      </Break>
-      <p className="iban__desc">
-        Celebrare insieme questo giorno sarà per noi il regalo più bello, ma se
-        desiderate contribuire al nostro regalo di nozze ve ne saremmo
-        profondamente grati
-      </p>
-      <div className="iban__data">
-        <div className="iban__data-title">IBAN</div>
-        <div className="iban__data-def" onClick={(e: any) => copyClip(e)}>
-          <div>IT36L030698456110000XXXXX</div>
-          <span className="iban__data-def-copy">
-            <Copy />
-          </span>
+      <div>
+        <Title text="Un vostro pensiero è gradito" isOrange={false} />
+        <Break isOrange={true}>
+          <Gift stroke="#ff8c69" />
+        </Break>
+      </div>
+
+      <div className="iban__body">
+        <p className="iban__desc">
+          Celebrare insieme questo giorno sarà per noi il regalo più bello, ma
+          se desiderate contribuire al nostro regalo di nozze ve ne saremmo
+          profondamente grati 😄❤️
+        </p>
+        <div className="iban__container-data">
+          <div className="iban__data">
+            <div className="iban__data-title">IBAN</div>
+            <div className="iban__data-def" onClick={(e: any) => copyClip(e)}>
+              <div>IT36L030698456110000XXXXX</div>
+              <span className="iban__data-def-copy">
+                <Copy />
+              </span>
+            </div>
+            {copied && <span className="iban__copied"> Iban copiato </span>}
+          </div>
+          <div className="iban__data">
+            <div className="iban__data-title">Intestato</div>
+            <div className="iban__data-def">
+              Giovanni Citron - Maria Mira Aguado
+            </div>
+          </div>
+          <div className="iban__data">
+            <div className="iban__data-title">Causale</div>
+            <div className="iban__data-def">Viaggio di nozze</div>
+          </div>
         </div>
-        {copied && <span className="iban__copied"> Iban copiato </span>}
-      </div>
-      <div className="iban__data">
-        <div className="iban__data-title">Intestato</div>
-        <div className="iban__data-def">Mary&Giovi</div>
-      </div>
-      <div className="iban__data">
-        <div className="iban__data-title">Causale</div>
-        <div className="iban__data-def">Viaggio di nozze</div>
       </div>
     </div>
   );

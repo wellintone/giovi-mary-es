@@ -5,6 +5,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*  margin-left: -15px; */
-  /* margin-right: -15px; */
+
+  @include sm {
+    background-position: 0 20%;
+  }
 }

@@ -15,8 +15,8 @@ export default function Home() {
     <main className="home">
       <Hero />
       <Where2 />
-      <Invitation />
-      <Church />
+      {/*  <Invitation /> */}
+      {/*  <Church /> */}
       <Place />
       <Receiving />
       <Break isOrange="true">

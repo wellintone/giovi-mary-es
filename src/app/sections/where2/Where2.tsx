@@ -22,18 +22,28 @@ const Where2 = () => {
       <div className="where__desc">
         Detto (sí) fatto... CI SPOSIAMO!! 😄
         <br />
+        <div className="where__desc-break"></div>
         Chi l'avrebbe mai detto che dopo quel volo la vita avrebbe fatto
-        incrociare il nostro cammino una volta ancora. <br />
+        incrociare il nostro cammino una volta ancora.
+        <br />
+        <div className="where__desc-break"></div>
         Da lì, inseparabili 😄
         <br />
+        <div className="where__desc-break"></div>
         Ora siamo qui, felici di celebrare il nostro amore con tutti voi.
         <br />
+        <div className="where__desc-break"></div>
         In vista del grande giorno abbiamo creato questo sito dove puoi trovare
         tutte le informazioni utili ed eventuali aggiornamenti.
         <br />
+        <div className="where__desc-break"></div>
         Per favore, conferma la presenza il prima possibile: ci renderai piú
-        facile l'organizzazione. <br />
-        Grazie mille! Vi aspettiamo! Un abbraccio, <br />
+        facile l'organizzazione.
+        <br />
+        <div className="where__desc-break"></div>
+        Grazie mille! Vi aspettiamo! Un abbraccio,
+        <br />
+        <div className="where__desc-break"></div>
         Maria e Giovanni
       </div>
       <Break isOrange="false">
@@ -42,9 +52,6 @@ const Where2 = () => {
       <div className="where__date">2 Nov 2024</div>
       <div className="where__remain">
         <CountdownTimer targetDate={endDate} />
-        {/* <div className="where__remain-date">19 Giorni</div>
-        <div className="where__remain-date">12 Ore</div>
-        <div className="where__remain-date">00 Minuti</div> */}
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import Break from "./components/Break/Break";
 import RingsSvg from "./components/Svgs/Rings";
+import Booking from "./sections/booking/Booking";
 import Church from "./sections/church/Church";
 import Confirm from "./sections/confirm/Confirm";
 import Hero from "./sections/hero/hero";
@@ -24,6 +25,7 @@ export default function Home() {
       </Break>
       <Confirm />
       <Iban />
+      <Booking />
       <Thanks />
     </main>
   );

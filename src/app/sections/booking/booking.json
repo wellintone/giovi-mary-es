@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "HOTEL SH VALENCIA PALACE",
+    "code": {
+      "name": "BODAMARIAYGIOVANNI",
+      "description": "Código válido solamente para reservas del 1 al 3 de noviembre. Si alguien quiere alargar su estancia antes o después, que contacte a este email:reservas.valencia.palace@sh-hoteles.com y, si hay disponibilidad, le prolongarán la estancia aplicando el descuento. Indicar en el correo el código de descuento: BODAMARIAYGIOVANNI"
+    },
+    "discount": {
+      "name": "Ver precios cerrados en descripción",
+      "infos": [
+        "Habitación doble superior uso individual 142€.",
+        "Habitación doble superior 156€",
+        "Precios sin IVA (10%) por noche",
+        " Desayuno incluido"
+      ],
+      "moreInfo": "https://www.hotel-valencia-palace.com/ Código válido solamente para reservas del 1 al 3 de noviembre. Si alguien quiere alargar su estancia antes o después, que contacte a este email:reservas.valencia.palace@sh-hoteles.com y, si hay disponibilidad, le prolongarán la estancia aplicando el descuento. Indicar en el correo el código de descuento: BODAMARIAYGIOVANNI"
+    },
+    "website": "https://www.hotel-valencia-palace.com/"
+  },
+  {
+    "id": 2,
+    "name": "HOTEL DIMAR",
+    "code": { "name": "Boda María y Giovanni", "description": "" },
+    "discount": {
+      "name": "Ver precios cerrados en descripción",
+      "infos": [
+        "Habitación doble 130€.",
+        "Habitación doble uso individual 115€.",
+        "Precios por habitación y noche en régimen de solo alojamiento, IVA incluido.",
+        "El desayuno tiene un coste adicional de 15€/persona y día, servicio que no se reserva, pero lo pueden contratar en el mismo instante."
+      ],
+      "moreInfo": "La reserva se debe realizar vía correo electrónico: reservas@hoteldimar.es (Rafael). Para poder acceder a estos precios ofertados: NECESARIO mencionar el código Boda María y Giovanni En caso de no facilitarlo, se aplicará la tarifa vigente para esa fecha. Fecha máxima para realizar la reserva: 1 de octubre"
+    },
+    "website": ""
+  },
+  {
+    "id": 3,
+    "name": "HOTEL BALNEARIO LAS ARENAS",
+    "code": { "name": "MARIA&GIOVANNI", "description": "" },
+    "discount": {
+      "name": "25% sobre el precio en el momento de la reserva",
+      "infos": [],
+      "moreInfo": ""
+    },
+    "website": "https://www.hotelvalencialasarenas.com/"
+  },
+  {
+    "id": 4,
+    "name": "STAYING VALENCIA",
+    "code": { "name": "MARIA&GIOVANNI", "description": "" },
+    "discount": {
+      "name": "25%",
+      "infos": ["Descuento aplica desde 25 de octubre hasta 10 de noviembre"],
+      "moreInfo": "Descuento aplicable sobre cualquier alojamiento gestionado por Staying Valencia (tienen apartamentos, hoteles de distintos precios y ubicaciones en Valencia ciudad)"
+    },
+    "website": "https://stayingvalencia.com/"
+  }
+]

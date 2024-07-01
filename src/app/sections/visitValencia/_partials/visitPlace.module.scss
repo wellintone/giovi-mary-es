@@ -1,0 +1,81 @@
+.visitPlace {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  align-items: center;
+  padding: $base-padding * 4 $base-padding;
+  overflow: hidden;
+  gap: 20px;
+
+  @include lg {
+    gap: 40px;
+    padding: $base-padding $base-padding * 14;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  &__image {
+    min-width: 200px;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    @include lg {
+      width: calc(100% / 3);
+
+      & > img {
+        width: 100%;
+      }
+    }
+    & > img {
+      border-radius: 20px;
+      min-height: 200px;
+      object-fit: fill;
+    }
+  }
+
+  &__right {
+    width: 100%;
+    @include lg {
+      width: calc(100% / 3);
+    }
+  }
+
+  &__name {
+    font-size: clamp($font-lg, 10vw, $font-5xl);
+    text-align: center;
+
+    @include lg {
+      text-align: left;
+    }
+  }
+  &__description {
+    text-align: center;
+
+    @include lg {
+      text-align: left;
+    }
+  }
+
+  &__maps {
+    font-size: clamp($font-lg, 10vw, $font-2xl);
+    width: 100%;
+    text-align: center;
+
+    @include lg {
+      width: calc(100% / 3);
+      text-align: left;
+    }
+
+    & > iframe {
+      min-height: 200px;
+      min-width: 200px;
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 20px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import "./_partials/visitPlace.module.scss";
+
+.visitValencia {
+  &__title {
+    width: 100%;
+    text-align: center;
+    font-size: clamp($font-lg, 10vw, $font-7xl);
+    font-weight: 900;
+  }
+}

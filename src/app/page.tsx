@@ -9,6 +9,7 @@ import Invitation from "./sections/invitation/Invitation";
 import Place from "./sections/place/Place";
 import Receiving from "./sections/receiving/Receiving";
 import Thanks from "./sections/thanks/Thanks";
+import VisitValencia from "./sections/visitValencia/VisitValencia";
 import Where2 from "./sections/where2/Where2";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <Confirm />
       <Iban />
       <Booking />
+      <VisitValencia />
       <Thanks />
     </main>
   );

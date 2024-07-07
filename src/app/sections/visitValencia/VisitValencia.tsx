@@ -25,6 +25,17 @@ const VisitValencia = () => {
       ))}
 
       <h2 className="visitValencia__title">Valencia da mangiare</h2>
+      <iframe
+        className="form"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdzxwrKe5Czkg_JzhspURHVo7xNPOOHe3p09TTuhVCPzfgdoA/viewform?embedded=true"
+        /*  width="640"
+        height="1061" */
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >
+        Caricamento…
+      </iframe>
     </div>
   );
 };

@@ -1,31 +1,94 @@
 [
   {
     "id": "1",
-    "name": "Mercato",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam minus necessitatibus nemo dolore inventore veritatis aliquid consectetur eaque, officiis aliquam voluptate est pariatur ut esse incidunt harum dolor unde.",
-    "image": "/img/visitValencia/mercatoCentrale.jpeg",
-    "maps": "https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Pl.%20Ciutat%20de%20Bruges,%20s/n,%20Ciutat%20Vella,%2046001%20Val%C3%A8ncia,%20Valencia,%20Spagna%20Valencia+(Mercato%20centrale)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    "name": "La Lonja de la Seda de Valencia",
+    "description": "Questo grandioso edificio illustra le ricchezze medievali della città con elaborate opere in pietra e intagli.",
+    "image": "/img/visitValencia/La_lonja_de_la_seda_de_Valencia.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.7761411919178!2d-0.37832990000000005!3d39.4743857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4dc26bfef3%3A0xb712b1ca639ccbc4!2sLa%20Lonja%20de%20la%20Seda%20de%20Valencia!5e0!3m2!1sen!2sit!4v1720367593196!5m2!1sen!2sit"
   },
   {
     "id": "2",
-    "name": "Mercato",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam minus necessitatibus nemo dolore inventore veritatis aliquid consectetur eaque, officiis aliquam voluptate est pariatur ut esse incidunt harum dolor unde.",
-    "image": "/img/visitValencia/mercatoCentrale.jpeg",
-    "maps": "https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Pl.%20Ciutat%20de%20Bruges,%20s/n,%20Ciutat%20Vella,%2046001%20Val%C3%A8ncia,%20Valencia,%20Spagna%20Valencia+(Mercato%20centrale)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    "name": "Valencia Cathedral",
+    "description": "Cattedrale prevalentemente in stile gotico, che si dice ospiti il ​​Santo Graal, oltre a una torre storica con vista sulla città.",
+    "image": "/img/visitValencia/Valencia_Cathedral.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.7362937649787!2d-0.3754667!3d39.475285799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4d59d6a49d%3A0xd390f51c980d0a7e!2sValencia%20Cathedral!5e0!3m2!1sen!2sit!4v1720367778524!5m2!1sen!2sit"
   },
   {
     "id": "3",
-    "name": "Mercato",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam minus necessitatibus nemo dolore inventore veritatis aliquid consectetur eaque, officiis aliquam voluptate est pariatur ut esse incidunt harum dolor unde.",
-    "image": "/img/visitValencia/mercatoCentrale.jpeg",
-    "maps": "https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Pl.%20Ciutat%20de%20Bruges,%20s/n,%20Ciutat%20Vella,%2046001%20Val%C3%A8ncia,%20Valencia,%20Spagna%20Valencia+(Mercato%20centrale)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    "name": "El Carmen",
+    "description": "Il vivace quartiere del centro storico di El Carme è il sito delle porte medievali Torres de Serranos e Torres de Quart, un tempo parte delle mura della città vecchia. Le sue strade strette ospitano caffè, tapas bar, boutique di moda e negozi di souvenir, e i festaioli affollano le terrazze e le piste da ballo dei suoi numerosi bar aperti fino a tarda notte. I musei includono l'Institut Valencià d'Art Modern, che espone opere internazionali del XX secolo.",
+    "image": "/img/visitValencia/El_Carmen.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6159.129995678255!2d-0.3795618!3d39.47915495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f5161d752e5%3A0x3898f5b32af5094!2sEl%20Carmen%2C%20Ciutat%20Vella%2C%20Valencia%2C%20Spain!5e0!3m2!1sen!2sit!4v1720367841239!5m2!1sen!2sit"
   },
 
   {
     "id": "4",
-    "name": "Mercato",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam minus necessitatibus nemo dolore inventore veritatis aliquid consectetur eaque, officiis aliquam voluptate est pariatur ut esse incidunt harum dolor unde.",
-    "image": "/img/visitValencia/mercatoCentrale.jpeg",
-    "maps": "https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Pl.%20Ciutat%20de%20Bruges,%20s/n,%20Ciutat%20Vella,%2046001%20Val%C3%A8ncia,%20Valencia,%20Spagna%20Valencia+(Mercato%20centrale)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+    "name": "Pl. de l'Ajuntament",
+    "description": "",
+    "image": "/img/visitValencia/Pi_de_l'Ajuntament.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.953237995107!2d-0.3786877233904465!3d39.470385112691694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4c9bbb5a99%3A0x109dc179638fbb28!2sPl.%20de%20l&#39;Ajuntament%2C%20Ciutat%20Vella%2C%2046002%20Val%C3%A8ncia%2C%20Spain!5e0!3m2!1sen!2sit!4v1720369357544!5m2!1sen!2sit"
+  },
+  {
+    "id": "5",
+    "name": "Pça. de la Reina",
+    "description": "",
+    "image": "/img/visitValencia/Pça_de_la_Reina.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.776455505896!2d-0.37509280000000006!3d39.4743786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4d4617f285%3A0xeee0bd0a45d3158a!2sP%C3%A7a.%20de%20la%20Reina%2C%20Ciutat%20Vella%2C%20Val%C3%A8ncia%2C%20Spain!5e0!3m2!1sen!2sit!4v1720368110817!5m2!1sen!2sit"
+  },
+  {
+    "id": "6",
+    "name": "Plaça de la Mare de Déu",
+    "description": "Piazza vivace, sede della Fontana del Turia, fiancheggiata da iconici edifici storici e caffè all'aperto.",
+    "image": "/img/visitValencia/Plaça_de_la_Mare_de_Déu.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.6896543546472!2d-0.37528330000000004!3d39.47633930000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604fec286f5dcd%3A0xb64cb01ae4599f44!2sPla%C3%A7a%20de%20la%20Mare%20de%20D%C3%A9u!5e0!3m2!1sen!2sit!4v1720368162455!5m2!1sen!2sit"
+  },
+  {
+    "id": "7",
+    "name": "Pl. Redona",
+    "description": "",
+    "image": "/img/visitValencia/Pl_Redona.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.8151865945583!2d-0.37656280000000003!3d39.473503699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4d10392795%3A0x9b33758378476b60!2sPl.%20Redona%2C%20Ciutat%20Vella%2C%2046001%20Val%C3%A8ncia%2C%20Spain!5e0!3m2!1sen!2sit!4v1720368262729!5m2!1sen!2sit"
+  },
+  {
+    "id": "8",
+    "name": "Mercat Central",
+    "description": "",
+    "image": "/img/visitValencia/Mercat_Central.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6159.642007000487!2d-0.3791024!3d39.47337230000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4dcf89eefd%3A0x345f8036255c5b94!2sMercat%20Central%2C%20Ciutat%20Vella%2C%2046001%20Valencia%2C%20Spain!5e0!3m2!1sen!2sit!4v1720368386418!5m2!1sen!2sit"
+  },
+  {
+    "id": "9",
+    "name": "Serranos Towers",
+    "description": "Imponenti torri in stile gotico, parte delle mura della città vecchia, con vista su Valencia e sul fiume.",
+    "image": "/img/visitValencia/Serranos_Towers.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.557101547059!2d-0.37596520000000005!3d39.4793333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f5315fd9427%3A0x2ea5d20801e3ab45!2sSerranos%20Towers!5e0!3m2!1sen!2sit!4v1720368460563!5m2!1sen!2sit"
+  },
+  {
+    "id": "10",
+    "name": "Quart Towers",
+    "description": "Torri difensive gemelle in stile gotico costruite nel 1400 come parte delle mura della città di Valencia.",
+    "image": "/img/visitValencia/Quart_Towers.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.7160001049006!2d-0.38388429999999996!3d39.47574420000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f5004d240a7%3A0x80e737729e180159!2sQuart%20Towers!5e0!3m2!1sen!2sit!4v1720368523397!5m2!1sen!2sit"
+  },
+  {
+    "id": "11",
+    "name": "La Malva-rosa",
+    "description": "Il quartiere di La Malva-rosa si affaccia sulla spiaggia di Malvarrosa, parte di una lunga distesa sabbiosa che abbraccia la città. Negozi di souvenir e abbigliamento da spiaggia si trovano accanto a caffè e ristoranti informali che servono hamburger o paella sul lungomare. In estate i chiassosi bar restano aperti fino a tardi. Nell'entroterra si trovano numerosi ristoranti spagnoli frequentati dalla gente del posto. La Casa-Museo de Blasco Ibáñez è l'antica casa e giardino restaurati dello scrittore valenciano.",
+    "image": "/img/visitValencia/La_Malva-rosa.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6159.033959728959!2d-0.3279819!3d39.480239499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd60487a06475893%3A0x143e1fdf2b059794!2sLa%20Malva-rosa%2C%20Poblats%20Mar%C3%ADtims%2C%2046011%20Valencia%2C%20Spain!5e0!3m2!1sen!2sit!4v1720368599581!5m2!1sen!2sit"
+  },
+  {
+    "id": "12",
+    "name": "Albufera de Valencia",
+    "description": "",
+    "image": "/img/visitValencia/Albufera_de_Valencia.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12344.044617979036!2d-0.36666669999999996!3d39.3333328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604b5b1f4a8a7f%3A0x8e1f56a663a60d3d!2sAlbufera%20de%20Valencia!5e0!3m2!1sen!2sit!4v1720368655110!5m2!1sen!2sit"
+  },
+  {
+    "id": "13",
+    "name": "Ciudad de las Artes y las Ciencias",
+    "description": "Complesso scientifico all'avanguardia situato all'interno di un parco paesaggistico con un enorme acquario e uno schermo IMAX.",
+    "image": "/img/visitValencia/Ciudad_de_las_Artes_y_las_Ciencias.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.639688637868!2d-0.3504904!3d39.454875099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048e9d19b4381%3A0x62eb4407a5ebf894!2sCiudad%20de%20las%20Artes%20y%20las%20Ciencias!5e0!3m2!1sen!2sit!4v1720368703432!5m2!1sen!2sit"
   }
 ]

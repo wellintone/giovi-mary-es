@@ -1,6 +1,33 @@
 @import "./_partials/visitPlace.module.scss";
+@import "./_partials/visitEat.module.scss";
 
 .visitValencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: $primary;
+
+  &__tour {
+    padding: $base-padding * 4 $base-padding;
+    background-color: $primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  &__eat {
+    padding: $base-padding * 4 $base-padding;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: $primary-variant;
+  }
+
   &__title {
     width: 100%;
     text-align: center;

@@ -2,40 +2,37 @@
 import React, { useEffect, useState } from "react";
 import VisitPlace from "./_partials/VisitPlace";
 import VisitValenciaData from "./vistValencia.json";
+import VisitEatValenciaData from "./visitEatValencia.json";
+import Bg from "@/app/components/Svgs/Bg";
+import VisitEat from "./_partials/VisitEat";
 
 const VisitValencia = () => {
-  const [visitVal, setvisitVal] = useState([]);
-  useEffect(() => {
-    if (VisitValenciaData) {
-      setvisitVal(VisitValenciaData);
-    }
-    console.log("visit", VisitValenciaData);
-  }, []);
   return (
     <div className="visitValencia">
-      <h2 className="visitValencia__title">Valencia da vedere</h2>
-      {visitVal.map((visit: any) => (
-        <VisitPlace
-          key={visit.id}
-          name={visit.name}
-          description={visit.description}
-          maps={visit.maps}
-          image={visit.image}
-        />
-      ))}
-
-      <h2 className="visitValencia__title">Valencia da mangiare</h2>
-      <iframe
-        className="form"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSdzxwrKe5Czkg_JzhspURHVo7xNPOOHe3p09TTuhVCPzfgdoA/viewform?embedded=true"
-        /*  width="640"
-        height="1061" */
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >
-        Caricamento…
-      </iframe>
+      <div className="visitValencia__tour">
+        <h2 className="visitValencia__title">Valencia da vedere</h2>
+        {VisitValenciaData.map((visit: any) => (
+          <VisitPlace
+            key={visit.id}
+            name={visit.name}
+            description={visit.description}
+            maps={visit.maps}
+            image={visit.image}
+          />
+        ))}
+      </div>
+      <div className="visitValencia__eat">
+        <h2 className="visitValencia__title">Valencia da mangiare</h2>
+        {VisitEatValenciaData.map((visit: any) => (
+          <VisitEat
+            key={visit.id}
+            name={visit.name}
+            description={visit.description}
+            maps={visit.maps}
+            image={visit.image}
+          />
+        ))}
+      </div>
     </div>
   );
 };

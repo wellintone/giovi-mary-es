@@ -1,4 +1,4 @@
-.visitPlace {
+.visitEat {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
@@ -9,14 +9,14 @@
   padding: $base-padding * 4 $base-padding;
   overflow: hidden;
   gap: 20px;
-  border: 1px solid darken($primary, 6);
+  border: 1px solid darken($primary-variant, 3);
   border-radius: 20px;
-  box-shadow: 10px 25px 25px darken($primary, 9);
+  box-shadow: 10px 25px 25px darken($primary-variant, 9);
   position: relative;
 
   &__bg {
     &-svg {
-      background-color: $primary;
+      background-color: $primary-variant;
       position: absolute;
       top: 0;
       right: 0;
@@ -33,7 +33,7 @@
 
       path {
         opacity: 0.5;
-        fill: color-mix(in srgb, $primary 80%, black);
+        fill: color-mix(in srgb, $primary-variant 80%, black);
       }
     }
 

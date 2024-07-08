@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "name": "270º Terrace at Barceló",
+    "description": "",
+    "image": "/img/visitEatValencia/270_Terrace_at_Barceló.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.3740269231644!2d-0.3525887!3d39.4608782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048ebc48c9251%3A0x41c64a6f8c145ba5!2s270%C2%BA%20Terrace%20at%20Barcel%C3%B3!5e0!3m2!1sen!2sit!4v1720370214181!5m2!1sen!2sit"
+  },
+  {
+    "id": "2",
+    "name": "Orxateria Daniel",
+    "description": "",
+    "image": "/img/visitEatValencia/Orxateria_Daniel.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.7928174752815!2d-0.37491910000000006!3d39.474008999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f034b4f7ef1%3A0x179d0313f2893ce5!2sOrxateria%20Daniel!5e0!3m2!1sen!2sit!4v1720370257228!5m2!1sen!2sit"
+  },
+  {
+    "id": "3",
+    "name": "Orxateria Vida",
+    "description": "Ambiente in stile finca che serve dolci surgelati e sfornati, con soffitti con travi in ​​legno e bancone piastrellato.",
+    "image": "/img/visitEatValencia/Orxateria_Vida.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.3574750978014!2d-0.3471521!3d39.506420899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604638072f121b%3A0xe375a7e8444cc9f9!2sOrxateria%20Vida!5e0!3m2!1sen!2sit!4v1720370347784!5m2!1sen!2sit"
+  },
+
+  {
+    "id": "4",
+    "name": "Casa Carmela",
+    "description": "Storico ristorante che serve la tradizionale paella valenciana in un ambiente elegante.",
+    "image": "/img/visitEatValencia/Casa_Carmela.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.429193840862!2d-0.3258333!3d39.4822222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd60487718c2eaf7%3A0xd7c9ac5e7d6dcef5!2sCasa%20Carmela!5e0!3m2!1sen!2sit!4v1720370399245!5m2!1sen!2sit"
+  },
+  {
+    "id": "5",
+    "name": "La Taberna de Marisa",
+    "description": "Specialità tradizionali, tapas e cava vengono serviti in un locale sobrio con terrazza.",
+    "image": "/img/visitEatValencia/La_Taberna_de_Marisa.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6159.371339847812!2d-0.3796574!3d39.4764293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f51f6811117%3A0x1c32dfca939084a6!2sLa%20Taberna%20de%20Marisa!5e0!3m2!1sen!2sit!4v1720370493313!5m2!1sen!2sit"
+  },
+  {
+    "id": "6",
+    "name": "El Rodamón de Russafa",
+    "description": "Rivisitazioni contemporanee di piatti classici provenienti da tutto il mondo in una sala elegante con una lunga carta dei vini.",
+    "image": "/img/visitEatValencia/El_Rodamón_de_Russafa.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.373062122426!2d-0.3745306!3d39.460899999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048cb4c19ffad%3A0xe383a62fa1992532!2sEl%20Rodam%C3%B3n%20de%20Russafa!5e0!3m2!1sen!2sit!4v1720370563736!5m2!1sen!2sit"
+  },
+  {
+    "id": "7",
+    "name": "Nou Gourmet | Restaurants València Centre",
+    "description": "Cucina valenciana creativa servita in diverse sale luminose e raffinate, oltre a paella da asporto.",
+    "image": "/img/visitEatValencia/Nou_Gourmet.png",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.1636588317742!2d-0.37071670000000007!3d39.465631300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604897188f4135%3A0xbb7e4747157a6885!2sNou%20Gourmet%20%7C%20Restaurants%20Val%C3%A8ncia%20Centre!5e0!3m2!1sen!2sit!4v1720370659385!5m2!1sen!2sit"
+  },
+  {
+    "id": "8",
+    "name": "Rausell",
+    "description": "Bistrot rinnovato che serve piatti classici spagnoli dal 1948, con specialità di pesce e una lunga lista di vini.",
+    "image": "/img/visitEatValencia/Rausell.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6159.998779191091!2d-0.3896054!3d39.469342499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4145e90a95%3A0x6780d7b587d05cb0!2sRausell!5e0!3m2!1sen!2sit!4v1720370722284!5m2!1sen!2sit"
+  },
+  {
+    "id": "9",
+    "name": "Alqueria El Brosquil",
+    "description": "IElegante fattoria immersa tra gli aranceti che serve la tradizionale paella valenciana e piatti di pesce.",
+    "image": "/img/visitEatValencia/Alqueria_El_Brosquil.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081.867888241818!2d-0.3508478!3d39.4271118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604912dbaf123d%3A0x8cbf582ef72ab746!2sAlqueria%20El%20Brosquil!5e0!3m2!1sen!2sit!4v1720370782406!5m2!1sen!2sit"
+  },
+  {
+    "id": "10",
+    "name": "Araguaney",
+    "description": "Torri difensive gemelle in stile gotico costruite nel 1400 come parte delle mura della città di Valencia.",
+    "image": "/img/visitEatValencia/Araguaney.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.1021829415404!2d-0.41596510000000003!3d39.512183400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd60450967ebd469%3A0x9a3fc4b797f0c3f0!2sAraguaney!5e0!3m2!1sen!2sit!4v1720370849746!5m2!1sen!2sit"
+  },
+  {
+    "id": "11",
+    "name": "El Aprendiz de tapas",
+    "description": "Tapas creative con un tocco globale, oltre a cocktail, in un sobrio bar rétro con terrazza.",
+    "image": "/img/visitEatValencia/El_Aprendiz_de_tapas.jpg",
+    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.4289547454314!2d-0.36017089999999996!3d39.4822276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048a137028d79%3A0xd5e863bab85fea39!2sEl%20Aprendiz%20de%20tapas!5e0!3m2!1sen!2sit!4v1720370926945!5m2!1sen!2sit"
+  }
+]

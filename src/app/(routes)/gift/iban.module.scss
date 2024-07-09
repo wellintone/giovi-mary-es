@@ -1,0 +1,91 @@
+.iban {
+  padding: $base-padding * 4 $base-padding;
+  /*  display: flex;
+  flex-direction: column;
+ */
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*  justify-content: space-between; */
+    @include lg {
+      flex-direction: row;
+    }
+  }
+  &__desc {
+    text-align: center;
+    font-size: clamp($font-base, 10vw, $font-3xl);
+    width: 100%;
+    @include lg {
+      width: 50%;
+      text-align: left;
+      margin: 0 0 0 10%;
+    }
+  }
+
+  &__copied {
+    background-color: $primary;
+    padding: 20px 60px;
+    color: $on-primary;
+    transition: all 1s ease-in-out;
+    animation: fade-in 0.8s ease-in-out;
+  }
+
+  &__container-data {
+    width: 50%;
+    @include lg {
+      margin: 0 10% 0 0;
+    }
+  }
+
+  &__data {
+    margin-top: 60px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    @include lg {
+      margin-top: 20px;
+      flex-direction: column;
+    }
+    &-title {
+      text-transform: uppercase;
+      font-size: clamp($font-xl, 10vw, $font-4xl);
+      line-height: 1;
+      width: 100%;
+      text-align: center;
+    }
+    &-def {
+      color: $primary;
+      text-align: center;
+      font-size: clamp($font-base, 10vw, $font-xl);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      &-copy {
+        cursor: copy;
+        & > svg {
+          height: 20px;
+          width: 20px;
+        }
+      }
+    }
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

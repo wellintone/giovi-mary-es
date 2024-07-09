@@ -18,7 +18,6 @@
 @import "./sections/where2/where.module";
 @import "./sections/invitation/invitation.module";
 @import "./sections/church/church.module";
-@import "./sections/place/place.module";
 @import "./sections/receiving/receiving.module";
 @import "./sections/confirm/confirm.module";
 @import "./sections/iban/iban.module";
@@ -28,6 +27,7 @@
 /* PAGES */
 @import "./\(routes\)/visitPlace/visitPlace.module";
 @import "./\(routes\)/visitRestaurant/visitRestaurant.module";
+@import "./\(routes\)/place/place.module";
 .home {
   position: relative;
 }

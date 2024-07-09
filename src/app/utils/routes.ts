@@ -2,8 +2,11 @@ export const Links: any[] = [
   { route: "/", name: "Home" },
   { route: "/visitPlace", name: "Visita Valencia" },
   { route: "/visitRestaurant", name: "Mangia a Valencia" },
-  { route: "/ilgrandegiorno", name: "Il Grande giorno" },
+  { route: "/place", name: "Location" },
+  { route: "/receiving", name: "Ricevimento" },
+  { route: "/gift", name: "Regalo" },
+  /*   { route: "/ilgrandegiorno", name: "Il Grande giorno" },
   { route: "/presenza", name: "Ci sarai?" },
   { route: "/cosafare", name: "Cosa da fare" },
-  { route: "/contatti", name: "Contattaci" },
+  { route: "/contatti", name: "Contattaci" }, */
 ];

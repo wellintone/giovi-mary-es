@@ -18,9 +18,7 @@
 @import "./sections/where2/where.module";
 @import "./sections/invitation/invitation.module";
 @import "./sections/church/church.module";
-@import "./sections/receiving/receiving.module";
 @import "./sections/confirm/confirm.module";
-@import "./sections/iban/iban.module";
 @import "./sections/booking/booking.module";
 @import "./sections/thanks/thanks.module";
 
@@ -28,6 +26,8 @@
 @import "./\(routes\)/visitPlace/visitPlace.module";
 @import "./\(routes\)/visitRestaurant/visitRestaurant.module";
 @import "./\(routes\)/place/place.module";
+@import "./\(routes\)/gift/gift.module";
+@import "./\(routes\)/receiving/receiving.module";
 .home {
   position: relative;
 }

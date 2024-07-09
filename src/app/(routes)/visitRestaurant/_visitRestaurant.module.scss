@@ -1,0 +1,42 @@
+@import "./_partials/visitEat.module.scss";
+
+.visitValencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: $primary-variant;
+
+  &__tour {
+    padding: $base-padding * 4 $base-padding;
+    background-color: $primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  &__eat {
+    padding: $base-padding * 4 $base-padding;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: $primary-variant;
+  }
+
+  &__title {
+    width: 100%;
+    text-align: center;
+    font-size: clamp($font-lg, 10vw, $font-7xl);
+    font-weight: 900;
+  }
+}
+
+.form {
+  width: 100%;
+  min-height: 100%;
+  border: 1px solid red;
+}

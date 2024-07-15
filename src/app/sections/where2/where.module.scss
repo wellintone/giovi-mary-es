@@ -55,7 +55,10 @@
     margin-top: 20px;
     z-index: 10;
     width: 100%;
-    /*  padding: $base-padding $base-padding * 16; */
+    padding: 0;
+    @include lg {
+      padding: $base-padding $base-padding * 16;
+    }
     &-date {
       padding: 20px;
       border: 2px solid $background;
@@ -76,5 +79,9 @@
     &-break {
       margin-top: 20px;
     }
+  }
+
+  &__call_to_action {
+    z-index: 1;
   }
 }

@@ -1,5 +1,6 @@
 export enum BUTTON_VARIANTS {
   Primary = "primary",
+  PrimaryVariant = "primary-variant",
   Secondary = "secondary",
   PrimaryOutline = "primary_outline",
   SecondaryOutline = "secondary_outline",

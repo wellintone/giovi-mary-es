@@ -31,6 +31,9 @@
   &-secondary {
     @include solid-color($secondary, $on-primary);
   }
+  &-primary-variant {
+    @include solid-color($primary-variant, $on-primary);
+  }
   &-warning {
     @include solid-color($warning, $on-primary);
   }

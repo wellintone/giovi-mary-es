@@ -4,12 +4,17 @@ import RingsSvg from "../../components/Svgs/Rings";
 import Bg from "@/app/components/Svgs/Bg";
 import Break from "@/app/components/Break/Break";
 import { CountdownTimer } from "@/app/components/CountDown/CountDown";
+import Button from "@/app/components/Buttons/button";
+import { BUTTON_SIZES, BUTTON_VARIANTS } from "@/app/components/Buttons/enums";
+import { useRouter } from "next/navigation";
 
 const Where2 = () => {
   const endDate = new Date();
   endDate.setMonth(10); // Novembre (i mesi sono indicizzati da 0)
   endDate.setDate(2);
   endDate.setHours(0, 0, 0, 0); // Imposta l'ora di fine a mezzanotte
+
+  const router = useRouter();
   return (
     <div className="where">
       <div className="where__bg">
@@ -46,6 +51,18 @@ const Where2 = () => {
         <div className="where__desc-break"></div>
         Maria e Giovanni
       </div>
+
+      <div className="where__call_to_action">
+        <Button
+          variant={BUTTON_VARIANTS.PrimaryVariant}
+          size={BUTTON_SIZES.Large}
+          hasShadow={true}
+          onClick={() => router.push("/place")}
+        >
+          Vai alla Location
+        </Button>
+      </div>
+
       <Break isOrange="false">
         <RingsSvg stroke="#fff"></RingsSvg>
       </Break>

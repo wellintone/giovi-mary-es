@@ -1,0 +1,34 @@
+@import "./_partials/hotel.module.scss";
+
+.booking {
+  text-align: center;
+  font-size: clamp($font-base, 10vw, $font-3xl);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: $base-padding * 4 $base-padding;
+  margin-top: 83px;
+
+  @include lg {
+    padding: $base-padding $base-padding * 5;
+    width: 100%;
+    text-align: left;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+    /*   font-size: clamp($font-base, 10vw, $font-4xl) !important; */
+  }
+
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    @include lg {
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+    }
+  }
+}

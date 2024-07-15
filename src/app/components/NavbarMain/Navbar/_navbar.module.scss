@@ -90,11 +90,12 @@
   .responsive_nav {
     position: fixed;
     transform: translateY(100vh);
-    background-color: rgba($background, 0.1);
+    /*  background-color: rgba($background, 0.1); */
+    background-color: $background;
     width: 100%;
     z-index: 11;
     color: black;
-    backdrop-filter: blur(0.7rem);
+    /*  backdrop-filter: blur(0.7rem); */
   }
 }
 

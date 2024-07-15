@@ -19,7 +19,6 @@
 @import "./sections/invitation/invitation.module";
 @import "./sections/church/church.module";
 @import "./sections/confirm/confirm.module";
-@import "./sections/booking/booking.module";
 @import "./sections/thanks/thanks.module";
 
 /* PAGES */
@@ -28,6 +27,7 @@
 @import "./\(routes\)/place/place.module";
 @import "./\(routes\)/gift/gift.module";
 @import "./\(routes\)/receiving/receiving.module";
+@import "./\(routes\)/booking/booking.module";
 .home {
   position: relative;
 }

@@ -3,29 +3,40 @@
   display: flex;
   flex-direction: column;
   background-color: $primary;
-  padding: $base-padding $base-padding * 4;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
+  padding: $base-padding;
+  @include lg {
+    padding: $base-padding $base-padding * 4;
+  }
 
   &__discount {
-    font-size: clamp($font-sm, 10vw, $font-base);
+    font-size: clamp(calc($font-xs * 0.7), 10vw, calc($font-sm * 0.7));
     position: absolute;
     background-color: $primary-variant;
     box-shadow: 10px 15px 15px darken($primary, 9);
-    padding: $base-padding $base-padding;
     transform: rotate(45deg);
     border-radius: 100%;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     display: flex;
     align-items: end;
     justify-content: center;
     text-align: center;
     font-weight: 900;
-    right: -200px;
-    top: -200px;
-    padding: 70px;
+    right: -100px;
+    top: -100px;
+    padding: 30px;
+
+    @include lg {
+      font-size: clamp($font-sm, 10vw, $font-base);
+      height: 400px;
+      width: 400px;
+      right: -200px;
+      top: -200px;
+      padding: 70px;
+    }
   }
   &::before {
     content: "";
@@ -130,6 +141,46 @@
     }
     &__value {
       font-size: clamp($font-base, 10vw, $font-lg);
+    }
+  }
+
+  .sub_hotel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    margin-top: 40px;
+
+    &__content {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      border-top: 2px solid $primary-variant;
+      padding-top: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      @include lg {
+        justify-content: space-between;
+      }
+    }
+    &__name {
+      font-size: clamp($font-base, 10vw, $font-3xl);
+      font-weight: 900;
+      text-transform: uppercase;
+      width: 100%;
+    }
+    &__website {
+      font-size: clamp($font-base, 10vw, $font-lg);
+      display: flex;
+      gap: 10px;
+      .name {
+        font-weight: 900;
+      }
+    }
+    &__indication {
+      border-radius: 20px;
     }
   }
 }

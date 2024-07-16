@@ -10,12 +10,15 @@ const Booking = () => {
       <div className="booking__desc">
         <div>
           Se hai bisogno di pernottare a Valencia, abbiamo contattato delle
-          strutture per avere dei piccoli sconti.
+          strutture per avere dei piccoli sconti. Sentiti libero di cercare
+          alternative (Booking, AirBnB etc...), siamo lieti di aiutarvi nella
+          ricerca.
         </div>
-        <div>
+
+        {/*   <div>
           Sentiti libero di cercare alternative (Booking, AirBnB etc...), siamo
           lieti di aiutarvi nella ricerca.
-        </div>
+        </div> */}
       </div>
       {BookingData.map((booking: any) => {
         return (
@@ -26,6 +29,7 @@ const Booking = () => {
             code={booking.code}
             discount={booking.discount}
             website={booking.website}
+            sub_hotel={booking.sub_hotel}
           />
         );
       })}

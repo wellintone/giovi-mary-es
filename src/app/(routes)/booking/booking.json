@@ -16,7 +16,8 @@
       ],
       "moreInfo": "https://www.hotel-valencia-palace.com/ Código válido solamente para reservas del 1 al 3 de noviembre. Si alguien quiere alargar su estancia antes o después, que contacte a este email:reservas.valencia.palace@sh-hoteles.com y, si hay disponibilidad, le prolongarán la estancia aplicando el descuento. Indicar en el correo el código de descuento: BODAMARIAYGIOVANNI"
     },
-    "website": "https://www.hotel-valencia-palace.com/"
+    "website": "https://www.hotel-valencia-palace.com/",
+    "sub_hotel": []
   },
   {
     "id": 2,
@@ -32,7 +33,8 @@
       ],
       "moreInfo": "La reserva se debe realizar vía correo electrónico: reservas@hoteldimar.es (Rafael). Para poder acceder a estos precios ofertados: NECESARIO mencionar el código Boda María y Giovanni En caso de no facilitarlo, se aplicará la tarifa vigente para esa fecha. Fecha máxima para realizar la reserva: 1 de octubre"
     },
-    "website": ""
+    "website": "",
+    "sub_hotel": []
   },
   {
     "id": 3,
@@ -43,7 +45,8 @@
       "infos": [],
       "moreInfo": ""
     },
-    "website": "https://www.hotelvalencialasarenas.com/"
+    "website": "https://www.hotelvalencialasarenas.com/",
+    "sub_hotel": []
   },
   {
     "id": 4,
@@ -54,6 +57,58 @@
       "infos": ["Descuento aplica desde 25 de octubre hasta 10 de noviembre"],
       "moreInfo": "Descuento aplicable sobre cualquier alojamiento gestionado por Staying Valencia (tienen apartamentos, hoteles de distintos precios y ubicaciones en Valencia ciudad)"
     },
-    "website": "https://stayingvalencia.com/"
+    "website": "https://stayingvalencia.com/",
+    "sub_hotel": [
+      {
+        "name": "HOTEL HELEN BERGER",
+        "website": "https://hotelhelenberger.com/",
+        "indication": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.8621463569766!2d-0.3726101999999999!3d39.47244289999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048b307fb61af%3A0x21bb809bac300fd6!2sHOTEL%20HELEN%20BERGER!5e0!3m2!1sit!2sit!4v1721112179194!5m2!1sit!2sit"
+      },
+      {
+        "name": "Hotel Malcom and Barret",
+        "website": "https://hotelmalcomandbarret.com/",
+        "indication": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.823110944892!2d-0.3709143!3d39.450729900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6049c9152e234f%3A0x38edfe96a4f27799!2sHotel%20Malcom%20and%20Barret!5e0!3m2!1sit!2sit!4v1721112263984!5m2!1sit!2sit"
+      },
+      {
+        "name": "Ramirez Flats & Bar",
+        "website": "https://ramirezvalencia.com/",
+        "indication": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.0707964246885!2d-0.3590971!3d39.46772929999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048bf1d0ba019%3A0x196a964f45a00206!2sRamirez%20Flats%20%26%20Bar!5e0!3m2!1sit!2sit!4v1721112327307!5m2!1sit!2sit"
+      },
+      {
+        "name": "COSMO HOTEL BOUTIQUE",
+        "website": "https://www.hotelcosmovalencia.com/",
+        "indication": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.850105492898!2d-0.37722020000000006!3d39.47271490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f2a77e2ea0d%3A0x80c8b206708962b6!2sCOSMO%20HOTEL%20BOUTIQUE!5e0!3m2!1sit!2sit!4v1721112382643!5m2!1sit!2sit"
+      },
+      {
+        "name": "Parker The Urban Flats",
+        "website": "https://parkerurbanflats.com/",
+        "indication": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.8797028748445!2d-0.38564139999999997!3d39.472046299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4597c9857f%3A0x13e21b86d29cf807!2sParker%20The%20Urban%20Flats!5e0!3m2!1sit!2sit!4v1721112437378!5m2!1sit!2sit"
+      },
+      {
+        "name": "Hotel Kramer",
+        "website": "https://www.hotelkramervalencia.com/",
+        "indication": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.490109152193!2d-0.3935151!3d39.4808464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f5e04d09267%3A0xdfbe795d3f744dd6!2sHotel%20Kramer!5e0!3m2!1sit!2sit!4v1721112500893!5m2!1sit!2sit"
+      },
+      {
+        "name": "Rooms Ciencias",
+        "website": "https://www.roomsciencias.com/",
+        "indication": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.6169920374286!2d-0.35817600000000005!3d39.455388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048c2d7127775%3A0x91a36e2453cbc73e!2sRooms%20Ciencias!5e0!3m2!1sit!2sit!4v1721112568835!5m2!1sit!2sit"
+      },
+      {
+        "name": "Oliveira Rooms",
+        "website": "https://oliveirarooms.com/",
+        "indication": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.9456912202127!2d-0.37472220000000006!3d39.4705556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048b3547c32d3%3A0x8ad708a821fffbc4!2sOliveira%20Rooms!5e0!3m2!1sit!2sit!4v1721112623646!5m2!1sit!2sit"
+      },
+      {
+        "name": "Apartamentos Wallace València",
+        "website": "https://www.apartamentoswallacevalencia.com/",
+        "indication": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.9260901503435!2d-0.3757761!3d39.470998400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4ca47feecb%3A0xd1733f5be0072b45!2sApartamentos%20Wallace%20Val%C3%A8ncia!5e0!3m2!1sit!2sit!4v1721112705963!5m2!1sit!2sit"
+      },
+      {
+        "name": "Anderson City Flats",
+        "website": "https://andersoncityflats.com/",
+        "indication": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.769403351323!2d-0.3777606!3d39.4745379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4d99bf9411%3A0x2ad777cd479a17ff!2sAnderson%20City%20Flats!5e0!3m2!1sit!2sit!4v1721112819858!5m2!1sit!2sit"
+      }
+    ]
   }
 ]

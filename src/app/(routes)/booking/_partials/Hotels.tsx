@@ -2,7 +2,7 @@ import React from "react";
 import BookingData from "../booking.json";
 import { info } from "sass";
 
-const Hotels = ({ id, name, code, discount, website }: any) => {
+const Hotels = ({ id, name, code, discount, website, sub_hotel }: any) => {
   return (
     <div className="hotels">
       <div className="hotels__discount">CON IL NOSTRO SCONTO</div>
@@ -38,6 +38,25 @@ const Hotels = ({ id, name, code, discount, website }: any) => {
             </a>
           </div>
         )}
+        <ol className="sub_hotel">
+          {sub_hotel &&
+            sub_hotel.map((info: any, ind: number) => (
+              <li key={ind} className="sub_hotel__content">
+                <h1 className="sub_hotel__name">{info.name}</h1>
+                <div className="sub_hotel__website">
+                  <div className="name">website:</div>
+                  <a href={info.website} className="value" target="_blank">
+                    {info.name}
+                  </a>
+                </div>
+                <iframe
+                  className="sub_hotel__indication"
+                  id="gmap_canvas"
+                  src={info.indication}
+                ></iframe>
+              </li>
+            ))}
+        </ol>
       </div>
     </div>
   );

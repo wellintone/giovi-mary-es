@@ -8,6 +8,7 @@
   position: relative;
   color: $background;
   font-size: clamp($font-lg, 10vw, $font-2xl);
+  box-shadow: -10px -11px 40px black;
 
   &__bg {
     &-svg {
@@ -34,6 +35,20 @@
       object-fit: cover;
 
       z-index: 0;
+    }
+  }
+
+  &__names {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: clamp($font-lg, 10vw, $font-6xl);
+    &-gira {
+      height: 80px;
+      width: 80px;
     }
   }
 

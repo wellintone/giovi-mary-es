@@ -7,6 +7,8 @@ import { CountdownTimer } from "@/app/components/CountDown/CountDown";
 import Button from "@/app/components/Buttons/button";
 import { BUTTON_SIZES, BUTTON_VARIANTS } from "@/app/components/Buttons/enums";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
+import Girasoli from "@/../public/img/gira.png";
 
 const Where2 = () => {
   const endDate = new Date();
@@ -49,7 +51,11 @@ const Where2 = () => {
         Grazie mille! Vi aspettiamo! Un abbraccio,
         <br />
         <div className="where__desc-break"></div>
-        Maria e Giovanni
+        <div className="where__names">
+          <span>Maria</span>
+          <Image className="where__names-gira" src={Girasoli} alt="girasoli" />
+          <span>Giovanni</span>
+        </div>
       </div>
 
       <div className="where__call_to_action">

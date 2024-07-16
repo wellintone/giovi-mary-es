@@ -4,6 +4,9 @@ import Hamburger from "./Hamburger";
 import { useEffect, useRef, useState } from "react";
 import NavbarLinkList from "./NavbarLinkList";
 import { Links } from "@/app/utils/routes";
+import Image from "next/image";
+import Logo from "@/../public/img/log.png";
+import { useRouter } from "next/navigation";
 
 export type INavbar = {
   type?: string;
@@ -16,6 +19,7 @@ export type INavbar = {
 function Navbar({ type, linkColor, textBold }: INavbar) {
   const navRef: any = useRef(null);
   const headerRef: any = useRef(null);
+  const router = useRouter();
 
   const [isResponsiveNav, setIsResponsiveNav] = useState(false);
 
@@ -51,7 +55,14 @@ function Navbar({ type, linkColor, textBold }: INavbar) {
       ref={headerRef}
       className={`Navbar ${type ? "Navbar-" + type : ""} `}
     >
-      <div className="logo__container">{/* <LogoWellintone /> */}</div>
+      <div className="logo__container">
+        <Image
+          className="logo__content"
+          src={Logo}
+          alt="logo"
+          onClick={() => router.push("/")}
+        />
+      </div>
 
       <NavbarLinkList
         onClick={onChangeRoute}

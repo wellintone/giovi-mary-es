@@ -8,7 +8,6 @@ import SendEmail from "@/app/components/Svgs/SendEmail";
 import InputField from "@/app/components/InputField/InputField";
 import Button from "@/app/components/Buttons/button";
 import { BUTTON_SIZES, BUTTON_VARIANTS } from "@/app/components/Buttons/enums";
-import ConfirmForm from "./_partial/confirm_form";
 
 const Confirm = () => {
   const [value, setValue] = useState({
@@ -34,7 +33,7 @@ const Confirm = () => {
         <SendEmail stroke="#fff"></SendEmail>
       </Break>
 
-      <ConfirmForm />
+      {/*  <ConfirmForm /> */}
 
       {/*  <form className="confirm__form" action="">
         <InputField

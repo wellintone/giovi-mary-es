@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Roboto, Shadows_Into_Light } from "next/font/google";
+import {
+  Playfair_Display,
+  Montserrat,
+  Shadows_Into_Light,
+} from "next/font/google";
 import "./globals.scss";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/NavbarMain/Navbar";
 
-const roboto_init = Roboto({
+const montserrat_init = Montserrat({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"],
   variable: "--font-roboto",
@@ -33,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto_init.variable} ${shadows_Into_Light.variable} ${playfair_display_init.variable}`}
+        className={`${montserrat_init.variable} ${shadows_Into_Light.variable} ${playfair_display_init.variable}`}
       >
         <Navbar />
         {children}

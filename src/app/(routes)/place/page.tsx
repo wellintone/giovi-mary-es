@@ -27,7 +27,7 @@ const Place = () => {
           <div className="place__data-cont-def">
             <div className="place__data-def">H 12:00</div>
             <div className="place__data-def">
-              Vi consigliamo di arrivare almeno 15 minuti prima dell'inizio
+              Vi consigliamo di arrivare almeno 15 minuti prima dell inizio
               della cerimonia
             </div>
           </div>

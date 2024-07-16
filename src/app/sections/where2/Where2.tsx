@@ -30,7 +30,7 @@ const Where2 = () => {
         Detto (sí) fatto... CI SPOSIAMO!! 😄
         <br />
         <div className="where__desc-break"></div>
-        Chi l'avrebbe mai detto che dopo quel volo la vita avrebbe fatto
+        Chi l avrebbe mai detto che dopo quel volo la vita avrebbe fatto
         incrociare il nostro cammino una volta ancora.
         <br />
         <div className="where__desc-break"></div>
@@ -45,7 +45,7 @@ const Where2 = () => {
         <br />
         <div className="where__desc-break"></div>
         Per favore, conferma la presenza il prima possibile: ci renderai piú
-        facile l'organizzazione.
+        facile l organizzazione.
         <br />
         <div className="where__desc-break"></div>
         Grazie mille! Vi aspettiamo! Un abbraccio,

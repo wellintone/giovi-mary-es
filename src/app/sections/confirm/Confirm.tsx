@@ -1,13 +1,8 @@
 "use client";
 import React, { useCallback, useState } from "react";
-import RingsSvg from "../../components/Svgs/Rings";
-import Image from "next/image";
 import Bg from "@/app/components/Svgs/Bg";
 import Break from "@/app/components/Break/Break";
 import SendEmail from "@/app/components/Svgs/SendEmail";
-import InputField from "@/app/components/InputField/InputField";
-import Button from "@/app/components/Buttons/button";
-import { BUTTON_SIZES, BUTTON_VARIANTS } from "@/app/components/Buttons/enums";
 
 const Confirm = () => {
   const [value, setValue] = useState({

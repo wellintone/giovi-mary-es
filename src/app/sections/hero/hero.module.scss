@@ -37,7 +37,7 @@
       align-items: center;
       background-color: #33333377;
       @include sm {
-        transform: translate(-50%, 240%);
+        transform: translate(-50%, calc(100vh - 555px));
       }
 
       &__names {

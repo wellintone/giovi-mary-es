@@ -1,0 +1,11 @@
+.participant {
+  border: 1px solid red;
+  padding: $base-padding * 4 $base-padding;
+  padding-top: 110px;
+
+  height: 100vh;
+  &__form {
+    height: 100%;
+    width: 100%;
+  }
+}

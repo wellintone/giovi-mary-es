@@ -63,9 +63,9 @@ const Where2 = () => {
           variant={BUTTON_VARIANTS.PrimaryVariant}
           size={BUTTON_SIZES.Large}
           hasShadow={true}
-          onClick={() => router.push("/place")}
+          onClick={() => router.push("/participant")}
         >
-          Vai alla Location
+          Ci Sarai?
         </Button>
       </div>
 

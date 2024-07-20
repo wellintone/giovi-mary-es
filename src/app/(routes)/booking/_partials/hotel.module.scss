@@ -2,49 +2,14 @@
   margin-top: 40px;
   display: flex;
   flex-direction: column;
-  background-color: $primary;
+  /* background-color: $primary; */
   border-radius: 20px;
   position: relative;
   overflow: hidden;
   padding: $base-padding;
+  background-color: $second-bg;
   @include lg {
     padding: $base-padding $base-padding * 4;
-  }
-
-  &__discount {
-    font-size: clamp(calc($font-xs * 0.7), 10vw, calc($font-sm * 0.7));
-    position: absolute;
-    background-color: $primary-variant;
-    box-shadow: 10px 15px 15px darken($primary, 9);
-    transform: rotate(45deg);
-    border-radius: 100%;
-    height: 200px;
-    width: 200px;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    text-align: center;
-    font-weight: 900;
-    right: -100px;
-    top: -100px;
-    padding: 30px;
-
-    @include lg {
-      font-size: clamp($font-sm, 10vw, $font-base);
-      height: 400px;
-      width: 400px;
-      right: -200px;
-      top: -200px;
-      padding: 70px;
-    }
-  }
-  &::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: $primary;
-    margin-bottom: 40px;
   }
 
   &__title {
@@ -56,6 +21,7 @@
     justify-content: center;
     font-size: clamp($font-base, 10vw, $font-5xl);
     font-weight: 900;
+    color: $title-text;
   }
 
   .code {
@@ -67,9 +33,10 @@
       flex-direction: row;
     }
     &__name {
-      font-weight: 900;
+      text-transform: uppercase;
       width: 100%;
       margin: 0 auto;
+      color: $title-text;
       @include lg {
         width: 90px;
         margin: 0;

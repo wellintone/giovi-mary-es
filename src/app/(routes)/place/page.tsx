@@ -47,7 +47,7 @@ const Place = () => {
         </div>
       </div>
       <div className="receiving">
-        <h2 className="receiving__title">DOVE CI FESTEGGIAMO</h2>
+        <h2 className="receiving__title">DOVE FESTEGGIAMO</h2>
         <div className="receiving__data">
           <div className="receiving__data-title">Luogo Ricevimento</div>
           <div className="receiving__data-cont-def">
@@ -65,7 +65,7 @@ const Place = () => {
         <div className="receiving__data">
           <div className="receiving__data-title">Orario</div>
           <div className="receiving__data-cont-def">
-            <div className="receiving__data-def">H 12:00</div>
+            <div className="receiving__data-def">H 14:00</div>
           </div>
         </div>
         <div className="receiving__data">

@@ -19,15 +19,17 @@ const Where2 = () => {
   const router = useRouter();
   return (
     <div className="where">
-      <div className="where__bg">
+      {/*  <div className="where__bg">
         <Bg className={"where__bg-svg"} />
-      </div>
+      </div> */}
       <h2 className="where__title">Il grande giorno</h2>
       {/*  <span className="where__rings">
         <RingsSvg className="where__rings-svg" />
       </span> */}
       <div className="where__desc">
-        Detto (sí) fatto... CI SPOSIAMO!! 😄
+        Detto (sí) fatto...
+        <br />
+        CI SPOSIAMO!!
         <br />
         <div className="where__desc-break"></div>
         Chi l avrebbe mai detto che dopo quel volo la vita avrebbe fatto
@@ -51,10 +53,9 @@ const Where2 = () => {
         Grazie mille! Vi aspettiamo! Un abbraccio,
         <br />
         <div className="where__desc-break"></div>
-        <div className="where__names">
-          <span>Maria</span>
-          <Image className="where__names-gira" src={Girasoli} alt="girasoli" />
-          <span>Giovanni</span>
+        <div className="where__names">Maria e Giovanni</div>
+        <div className="where__girasoli">
+          <Image className="imageGira" src={Girasoli} alt="girasoli" />
         </div>
       </div>
 
@@ -66,6 +67,22 @@ const Where2 = () => {
           onClick={() => router.push("/participant")}
         >
           Ci Sarai?
+        </Button>
+        <Button
+          variant={BUTTON_VARIANTS.PrimaryVariant}
+          size={BUTTON_SIZES.Large}
+          hasShadow={true}
+          onClick={() => router.push("/place")}
+        >
+          Location
+        </Button>
+        <Button
+          variant={BUTTON_VARIANTS.PrimaryVariant}
+          size={BUTTON_SIZES.Large}
+          hasShadow={true}
+          onClick={() => router.push("/gift")}
+        >
+          Regalo
         </Button>
       </div>
 

@@ -21,13 +21,7 @@ const Iban = () => {
   };
   return (
     <div className="iban">
-      <div>
-        <Title text="Un vostro pensiero è gradito" isOrange={false} />
-        <Break isOrange={true}>
-          <Gift stroke="#ff8c69" />
-        </Break>
-      </div>
-
+      <h2 className="iban__title">L'Africa ci aspetta</h2>
       <div className="iban__body">
         <p className="iban__desc">
           Celebrare insieme questo giorno sarà per noi il regalo più bello, ma
@@ -38,7 +32,7 @@ const Iban = () => {
           <div className="iban__data">
             <div className="iban__data-title">IBAN</div>
             <div className="iban__data-def" onClick={(e: any) => copyClip(e)}>
-              <div>IT36L030698456110000XXXXX</div>
+              <div>ES9300491770962710272710 </div>
               <span className="iban__data-def-copy">
                 <Copy />
               </span>
@@ -48,7 +42,8 @@ const Iban = () => {
           <div className="iban__data">
             <div className="iban__data-title">Intestato</div>
             <div className="iban__data-def">
-              Giovanni Citron - Maria Mira Aguado
+              Giovanni Citron <br />
+              Maria Mira Aguado
             </div>
           </div>
           <div className="iban__data">

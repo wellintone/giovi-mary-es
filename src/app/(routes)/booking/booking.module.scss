@@ -20,10 +20,12 @@
     margin-bottom: 20px;
     font-size: clamp($font-5xl, 10vw, $font-8xl);
     font-weight: 900;
+    color: $title-text;
     /*   font-size: clamp($font-base, 10vw, $font-4xl) !important; */
   }
 
   &__desc {
+    color: $title-text;
     display: flex;
     flex-direction: column;
     gap: 20px;

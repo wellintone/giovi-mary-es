@@ -13,8 +13,9 @@
   border-radius: 20px;
   box-shadow: 10px 25px 25px darken($primary-variant, 9);
   position: relative;
+  background-color: $second-bg;
 
-  &__bg {
+  /*  &__bg {
     &-svg {
       background-color: $primary-variant;
       position: absolute;
@@ -42,7 +43,7 @@
 
       z-index: 0;
     }
-  }
+  } */
 
   @include lg {
     gap: 40px;

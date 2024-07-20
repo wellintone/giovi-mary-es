@@ -63,15 +63,9 @@
     "image": "/img/visitEatValencia/Alqueria_El_Brosquil.jpg",
     "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081.867888241818!2d-0.3508478!3d39.4271118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604912dbaf123d%3A0x8cbf582ef72ab746!2sAlqueria%20El%20Brosquil!5e0!3m2!1sen!2sit!4v1720370782406!5m2!1sen!2sit"
   },
+
   {
     "id": "10",
-    "name": "Araguaney",
-    "description": "Torri difensive gemelle in stile gotico costruite nel 1400 come parte delle mura della città di Valencia.",
-    "image": "/img/visitEatValencia/Araguaney.jpg",
-    "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.1021829415404!2d-0.41596510000000003!3d39.512183400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd60450967ebd469%3A0x9a3fc4b797f0c3f0!2sAraguaney!5e0!3m2!1sen!2sit!4v1720370849746!5m2!1sen!2sit"
-  },
-  {
-    "id": "11",
     "name": "El Aprendiz de tapas",
     "description": "Tapas creative con un tocco globale, oltre a cocktail, in un sobrio bar rétro con terrazza.",
     "image": "/img/visitEatValencia/El_Aprendiz_de_tapas.jpg",

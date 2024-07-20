@@ -6,9 +6,10 @@
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  color: $background;
+
   font-size: clamp($font-lg, 10vw, $font-2xl);
   box-shadow: -10px -11px 40px black;
+  color: $font-color;
 
   &__bg {
     &-svg {
@@ -46,9 +47,15 @@
     margin: 0 auto;
     text-align: center;
     font-size: clamp($font-lg, 10vw, $font-6xl);
-    &-gira {
-      height: 80px;
-      width: 80px;
+  }
+  &__girasoli {
+    height: 100%;
+    width: 100%;
+
+    .imageGira {
+      height: 160px;
+      width: 160px;
+      margin: 0 auto;
     }
   }
 
@@ -98,5 +105,12 @@
 
   &__call_to_action {
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+
+    @include lg {
+      flex-direction: row;
+    }
+    gap: 20px;
   }
 }

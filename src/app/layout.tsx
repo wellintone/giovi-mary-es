@@ -1,9 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Playfair_Display,
-  Montserrat,
-  Shadows_Into_Light,
-} from "next/font/google";
+import { Playfair_Display, Montserrat, Caveat } from "next/font/google";
 import "./globals.scss";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/NavbarMain/Navbar";
@@ -18,9 +14,9 @@ const playfair_display_init = Playfair_Display({
   weight: ["400", "500", "600", "700", "800", "900"],
   variable: "--font-playfair_display",
 });
-const shadows_Into_Light = Shadows_Into_Light({
+const shadows_Into_Light = Caveat({
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-shadows_into_light",
 });
 

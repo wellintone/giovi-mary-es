@@ -4,8 +4,15 @@
   flex-direction: column;
 
  */
+  color: $title-text;
   margin-top: 83px;
 
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: clamp($font-5xl, 10vw, $font-8xl);
+    /*   font-size: clamp($font-base, 10vw, $font-4xl) !important; */
+  }
   &__body {
     display: flex;
     flex-direction: column;
@@ -17,8 +24,9 @@
   }
   &__desc {
     text-align: center;
-    font-size: clamp($font-base, 10vw, $font-3xl);
+    font-size: clamp($font-base, 10vw, $font-xl);
     width: 100%;
+    color: $title-text;
     @include lg {
       width: 50%;
       text-align: left;
@@ -61,9 +69,10 @@
       line-height: 1;
       width: 100%;
       text-align: center;
+      color: $font-color;
     }
     &-def {
-      color: $primary;
+      color: $title-text;
       text-align: center;
       font-size: clamp($font-base, 10vw, $font-xl);
       display: flex;

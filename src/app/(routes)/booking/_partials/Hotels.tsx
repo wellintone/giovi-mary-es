@@ -5,12 +5,19 @@ import { info } from "sass";
 const Hotels = ({ id, name, code, discount, website, sub_hotel }: any) => {
   return (
     <div className="hotels">
-      <div className="hotels__discount">CON IL NOSTRO SCONTO</div>
       <h2 className="hotels__title">
         <div className="hotels__title-number">{id}</div>
         <div className="hotels__title-name">{name}</div>
       </h2>
       <div className="hotels__body">
+        {website && (
+          <div className="website">
+            <div className="website__name">Website:</div>
+            <a className="website__value" href={website} target="_blank">
+              {website}
+            </a>
+          </div>
+        )}
         <div className="code">
           <div className="code__name">Código:</div>
           <div className="code__body">
@@ -30,14 +37,7 @@ const Hotels = ({ id, name, code, discount, website, sub_hotel }: any) => {
             </ol>
           </div>
         </div>
-        {website && (
-          <div className="website">
-            <div className="website__name">Website:</div>
-            <a className="website__value" href={website} target="_blank">
-              {website}
-            </a>
-          </div>
-        )}
+
         <ol className="sub_hotel">
           {sub_hotel &&
             sub_hotel.map((info: any, ind: number) => (

@@ -11,38 +11,9 @@
   gap: 20px;
   border: 1px solid darken($primary, 6);
   border-radius: 20px;
-  box-shadow: 10px 25px 25px darken($primary, 9);
+  box-shadow: 10px 25px 25px rgba($primary-variant, 0.4);
   position: relative;
-
-  &__bg {
-    &-svg {
-      background-color: $primary;
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      opacity: 1;
-      transform: scale(1);
-      object-fit: contain;
-      z-index: 1;
-
-      @include sm {
-        width: 100%;
-      }
-
-      path {
-        opacity: 0.5;
-        fill: color-mix(in srgb, $primary 80%, black);
-      }
-    }
-
-    & > img {
-      object-fit: cover;
-
-      z-index: 0;
-    }
-  }
+  background-color: $second-bg;
 
   @include lg {
     gap: 40px;

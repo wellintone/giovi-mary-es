@@ -6,7 +6,8 @@
   justify-content: center;
   gap: 30px;
   margin-top: 83px;
-  background: $primary;
+  background: $second-bg;
+  color: $title-text;
 
   &__title {
     font-size: clamp($font-lg, 10vw, $font-8xl);
@@ -51,6 +52,7 @@
       line-height: 1;
       width: 100%;
       text-align: center;
+      color: #585757;
 
       @include lg {
         width: 50%;
@@ -60,7 +62,7 @@
           content: "";
           height: 1px;
           width: 100%;
-          background-color: $on-primary;
+          background-color: $title-text;
           display: block;
           margin-bottom: 6px;
           margin-left: 10px;
@@ -73,7 +75,7 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        color: $on-primary;
+        color: $title-text;
         text-align: center;
         font-size: clamp($font-lg, 10vw, $font-2xl);
         width: 100%;
@@ -100,7 +102,8 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
-  background: $primary-variant;
+  background: $second-bg;
+  color: $title-text;
 
   &__title {
     font-size: clamp($font-lg, 10vw, $font-8xl);
@@ -145,6 +148,7 @@
       line-height: 1;
       width: 100%;
       text-align: center;
+      color: #585757;
 
       @include lg {
         width: 50%;
@@ -154,7 +158,7 @@
           content: "";
           height: 1px;
           width: 100%;
-          background-color: $on-primary;
+          background-color: $title-text;
           display: block;
           margin-bottom: 6px;
           margin-left: 10px;
@@ -167,7 +171,7 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        color: $on-primary;
+        color: $title-text;
         text-align: center;
         font-size: clamp($font-lg, 10vw, $font-2xl);
         width: 100%;
@@ -186,3 +190,108 @@
     }
   }
 }
+
+/* 
+.places {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  padding: $base-padding;
+  background-color: $second-bg;
+  margin-top: 83px;
+  @include lg {
+    padding: $base-padding $base-padding * 4;
+  }
+
+  &__title {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp($font-base, 10vw, $font-5xl);
+    font-weight: 900;
+    color: $title-text;
+  }
+
+  .code {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    @include lg {
+      flex-direction: row;
+    }
+    &__name {
+      text-transform: uppercase;
+      width: 100%;
+      margin: 0 auto;
+      color: $title-text;
+      font-size: clamp($font-base, 10vw, $font-2xl);
+      @include lg {
+        width: 90px;
+        margin: 0;
+        margin-right: 140px;
+      }
+    }
+    &__body {
+      &-code {
+        font-weight: 900;
+      }
+      &-more-info {
+        font-style: italic;
+        font-size: clamp($font-base, 10vw, $font-xl);
+      }
+
+      .listItem {
+        &__price {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .sub_hotel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    margin-top: 40px;
+
+    &__content {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      border-top: 2px solid $primary-variant;
+      padding-top: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      @include lg {
+        justify-content: space-between;
+      }
+    }
+    &__name {
+      font-size: clamp($font-base, 10vw, $font-3xl);
+      font-weight: 900;
+      text-transform: uppercase;
+      width: 100%;
+    }
+    &__website {
+      font-size: clamp($font-base, 10vw, $font-lg);
+      display: flex;
+      gap: 10px;
+      .name {
+        font-weight: 900;
+      }
+    }
+    &__indication {
+      border-radius: 20px;
+    }
+  }
+}
+ */

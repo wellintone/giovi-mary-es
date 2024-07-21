@@ -4,7 +4,6 @@ import Image from "next/image";
 const VisitPlace = ({ name, description, maps, image }: any) => {
   return (
     <div className="visitPlace">
-      <Bg className={"visitPlace__bg-svg"} />
       <div className="visitPlace__image">
         <Image src={image} alt="mercato" width="200" height={200} />
       </div>

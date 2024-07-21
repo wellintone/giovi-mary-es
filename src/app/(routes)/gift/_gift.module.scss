@@ -69,7 +69,7 @@
       line-height: 1;
       width: 100%;
       text-align: center;
-      color: $font-color;
+      color: #585757;
     }
     &-def {
       color: $title-text;
@@ -78,8 +78,10 @@
       display: flex;
       align-items: center;
       gap: 10px;
+      padding: 20px;
 
       &-copy {
+        color: $primary;
         cursor: copy;
         & > svg {
           height: 20px;

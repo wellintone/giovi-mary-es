@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    background-color: #faf9f8;
   }
   &__eat {
     padding: $base-padding * 4 $base-padding;
@@ -24,19 +25,20 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: $primary-variant;
+
+    background-color: #faf9f8;
   }
 
   &__title {
     width: 100%;
     text-align: center;
-    font-size: clamp($font-lg, 10vw, $font-7xl);
+    font-size: clamp($font-6xl, 10vw, $font-9xl);
     font-weight: 900;
+    color: $title-text;
   }
 }
 
 .form {
   width: 100%;
   min-height: 100%;
-  border: 1px solid red;
 }

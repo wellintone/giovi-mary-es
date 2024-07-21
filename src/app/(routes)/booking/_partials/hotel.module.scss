@@ -37,6 +37,7 @@
       width: 100%;
       margin: 0 auto;
       color: $title-text;
+      font-size: clamp($font-base, 10vw, $font-2xl);
       @include lg {
         width: 90px;
         margin: 0;
@@ -44,70 +45,19 @@
       }
     }
     &__body {
-      &-value {
+      &-code {
         font-weight: 900;
-        text-decoration: underline;
       }
-
       &-more-info {
         font-style: italic;
         font-size: clamp($font-base, 10vw, $font-xl);
       }
-    }
-  }
-  .discount {
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    @include lg {
-      flex-direction: row;
-    }
-    &__name {
-      font-weight: 900;
-      width: 100%;
-      margin: 0 auto;
-      @include lg {
-        width: 90px;
-        margin: 0;
-        margin-right: 140px;
-      }
-    }
-    &__body {
-      &-value {
-        font-weight: 900;
-        text-decoration: underline;
-      }
 
-      &-more-info {
-        font-style: italic;
-        font-size: clamp($font-base, 10vw, $font-xl);
+      .listItem {
+        &__price {
+          font-weight: 700;
+        }
       }
-      &-list {
-        margin-top: 10px;
-        list-style-position: outside;
-        font-size: clamp($font-base, 10vw, $font-xl);
-      }
-    }
-  }
-
-  .website {
-    display: flex;
-    flex-direction: column;
-    @include lg {
-      flex-direction: row;
-    }
-    &__name {
-      font-weight: 900;
-      margin: 0 auto;
-      width: 100%;
-      @include lg {
-        width: 90px;
-        margin: 0;
-        margin-right: 140px;
-      }
-    }
-    &__value {
-      font-size: clamp($font-base, 10vw, $font-lg);
     }
   }
 

@@ -1,12 +1,9 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Hotels from "./_partials/Hotels";
 import BookingData from "./booking.json";
 
 const Booking = () => {
-  useEffect(() => {
-    console.log("VOO", BookingData);
-  }, []);
   return (
     <div className="booking">
       <h2 className="booking__title">Dove dormire</h2>

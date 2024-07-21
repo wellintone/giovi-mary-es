@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Montserrat, Caveat } from "next/font/google";
+import { Playfair_Display, Montserrat, Caveat, Nunito } from "next/font/google";
 import "./globals.scss";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/NavbarMain/Navbar";
 
-const montserrat_init = Montserrat({
+const nunito = Nunito({
   subsets: ["latin"],
-  weight: ["100", "300", "400", "500", "700", "900"],
+  weight: ["300", "400", "500", "700", "900"],
   variable: "--font-roboto",
 });
 const playfair_display_init = Playfair_Display({
@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat_init.variable} ${shadows_Into_Light.variable} ${playfair_display_init.variable}`}
+        className={`${nunito.variable} ${shadows_Into_Light.variable} ${playfair_display_init.variable}`}
       >
         <Navbar />
         {children}

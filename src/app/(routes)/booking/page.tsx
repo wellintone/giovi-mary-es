@@ -27,7 +27,8 @@ const Booking = () => {
             id={booking.id}
             name={booking.name}
             code={booking.code}
-            discount={booking.discount}
+            how_to_use={booking.how_to_use}
+            prices={booking.prices}
             website={booking.website}
             sub_hotel={booking.sub_hotel}
           />

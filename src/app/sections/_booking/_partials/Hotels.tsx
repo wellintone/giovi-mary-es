@@ -11,7 +11,7 @@ const Hotels = ({ id, name, code, discount, website }: any) => {
       </h2>
       <div className="hotels__body">
         <div className="code">
-          <div className="code__name">Código:</div>
+          <div className="code__name">CODICE:</div>
           <div className="code__body">
             <div className="code__body-value">{code.name}</div>
             <div className="code__body-more-info">{code.description}</div>

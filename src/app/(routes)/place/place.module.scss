@@ -12,7 +12,6 @@
     font-size: clamp($font-lg, 10vw, $font-8xl);
     font-weight: 900;
     margin-bottom: 60px;
-    text-decoration: underline;
   }
 
   @include lg {
@@ -107,7 +106,6 @@
     font-size: clamp($font-lg, 10vw, $font-8xl);
     font-weight: 900;
     margin-bottom: 60px;
-    text-decoration: underline;
   }
 
   @include lg {

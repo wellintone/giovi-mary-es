@@ -6,6 +6,7 @@
   background-position: 100% 25%;
   width: 100%;
   width: 80%;
+  -webkit-transform: translatez(0);
   @include lg {
     background-size: cover;
     background-position: 70% 40%;

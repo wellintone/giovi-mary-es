@@ -41,7 +41,7 @@ const Iban = () => {
           </div>
           <div className="iban__data">
             <div className="iban__data-title">Intestato</div>
-            <div className="iban__data-def">
+            <div className="iban__data-names">
               Giovanni Citron <br />
               Maria Mira Aguado
             </div>

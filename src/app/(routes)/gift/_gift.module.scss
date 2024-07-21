@@ -89,6 +89,16 @@
         }
       }
     }
+    &-names {
+      color: $title-text;
+      text-align: center;
+      font-size: clamp($font-base, 10vw, $font-xl);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      justify-content: center;
+    }
   }
 }
 

@@ -1,10 +1,11 @@
 .hero {
-  min-height: calc(100vh - 84px);
+  height: calc(100vh);
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
   //padding: $base-padding * 2 $base-padding * 4;
 
   .message {
@@ -12,7 +13,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-size: $font-7xl;
+
     color: white;
     z-index: 10;
     margin-top: 80px;
@@ -25,38 +26,33 @@
       /*  margin-bottom: -40px; */
     }
     .solution {
-      font-weight: 900;
+      /*  font-weight: 900; */
       @include shadowIntoLight;
       position: absolute;
       left: 50%;
-      top: 50%;
+      top: 190px;
       transform: translate(-50%, -50%);
       display: flex;
+      flex-direction: column;
       width: 100%;
       justify-content: center;
       align-items: center;
-      background-color: #33333377;
-      @include sm {
-        transform: translate(-50%, calc(100vh - 555px));
+      color: $hero-text;
+
+      .date {
+        font-size: clamp($font-lg, 10vw, $font-5xl);
       }
-
-      &__names {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        text-align: center;
-        font-size: clamp($font-sm, 10vw, $font-7xl);
-        &-gira {
-          height: 140px;
-          width: 140px;
+      .name {
+        font-size: clamp($font-6xl, 10vw, $font-9xl);
+        font-weight: 900;
+      }
+      @include lg {
+        .date {
+          color: $second-bg;
         }
+        transform: translate(-70%, 45%);
+        color: $hero-text;
       }
-    }
-
-    .slogan {
-      margin-top: $base-margin * 2;
-      font-size: $font-lg;
     }
   }
 
@@ -64,14 +60,7 @@
     margin-top: $base-margin * 2;
   }
   &__bg {
-    height: calc(100vh - 84px);
+    height: calc(100vh);
     width: 100%;
-    object-fit: cover;
-    object-position: top;
-
-    /* position: absolute;
-    left: 0;
-    top: 0; */
-    /* filter: grayscale(1) contrast(1.5); */
   }
 }

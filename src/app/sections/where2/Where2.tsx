@@ -87,9 +87,9 @@ const Where2 = () => {
       </div>
 
       <Break isOrange="false">
-        <RingsSvg stroke="#fff"></RingsSvg>
+        <RingsSvg stroke="#ac8100"></RingsSvg>
       </Break>
-      <div className="where__date">2 Nov 2024</div>
+      <h2 className="where__title">02 - 11 - 2024</h2>
       <div className="where__remain">
         <CountdownTimer targetDate={endDate} />
       </div>

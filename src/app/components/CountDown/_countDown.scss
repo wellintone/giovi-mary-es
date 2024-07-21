@@ -1,5 +1,7 @@
 .show-counter {
   width: 100%;
+  text-align: center;
+  color: $title-text;
   .countdown-link {
     display: flex;
     flex-direction: column;

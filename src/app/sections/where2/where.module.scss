@@ -11,34 +11,6 @@
   box-shadow: -10px -11px 40px black;
   color: $font-color;
 
-  &__bg {
-    &-svg {
-      background-color: $primary;
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      opacity: 1;
-      transform: scale(1);
-      object-fit: contain;
-      height: 100%;
-      @include sm {
-        width: 100%;
-      }
-      path {
-        opacity: 0.5;
-        fill: color-mix(in srgb, $primary 80%, black);
-      }
-    }
-
-    & > img {
-      object-fit: cover;
-
-      z-index: 0;
-    }
-  }
-
   &__names {
     display: flex;
     align-items: center;
@@ -64,6 +36,7 @@
     text-align: center;
     z-index: 10;
     font-size: clamp($font-lg, 10vw, $font-9xl);
+    color: $title-text;
   }
 
   &__date {

@@ -26,7 +26,7 @@ const Iban = () => {
         <p className="iban__desc">
           Celebrare insieme questo giorno sarà per noi il regalo più bello, ma
           se desiderate contribuire al nostro regalo di nozze ve ne saremmo
-          profondamente grati 😄❤️
+          profondamente grati 💛
         </p>
         <div className="iban__container-data">
           <div className="iban__data">

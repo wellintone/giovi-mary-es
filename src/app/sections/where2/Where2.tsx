@@ -23,6 +23,7 @@ const Where2 = () => {
         <Bg className={"where__bg-svg"} />
       </div> */}
       <h2 className="where__title">Il grande giorno</h2>
+
       {/*  <span className="where__rings">
         <RingsSvg className="where__rings-svg" />
       </span> */}
@@ -53,7 +54,7 @@ const Where2 = () => {
         Grazie mille! Vi aspettiamo! Un abbraccio,
         <br />
         <div className="where__desc-break"></div>
-        <div className="where__names">Maria e Giovanni</div>
+        <h2 className="where__names">Maria e Giovanni</h2>
         <div className="where__girasoli">
           <Image className="imageGira" src={Girasoli} alt="girasoli" />
         </div>

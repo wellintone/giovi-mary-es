@@ -12,13 +12,11 @@
   color: $font-color;
 
   &__names {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
     text-align: center;
-    font-size: clamp($font-lg, 10vw, $font-6xl);
+    margin-bottom: 20px;
+    font-size: clamp(1rem, 10vw, 4rem);
+    font-weight: 900;
+    color: $title-text;
   }
   &__girasoli {
     height: 100%;
@@ -32,10 +30,10 @@
   }
 
   &__title {
-    width: 100%;
     text-align: center;
-    z-index: 10;
-    font-size: clamp($font-lg, 10vw, $font-9xl);
+    margin-bottom: 20px;
+    font-size: clamp($font-5xl, 10vw, $font-8xl);
+    font-weight: 900;
     color: $title-text;
   }
 
@@ -64,9 +62,20 @@
   }
 
   &__desc {
-    padding: $base-padding * 4 $base-padding;
+    /*  padding: $base-padding * 4 $base-padding;
     text-align: center;
     z-index: 10;
+    color: $title-text; */
+
+    z-index: 10;
+    color: $title-text;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: clamp($font-base, 10vw, $font-xl);
+
     @include lg {
       padding: $base-padding * 4 $base-padding * 20;
     }

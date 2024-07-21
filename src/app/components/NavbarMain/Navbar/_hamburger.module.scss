@@ -38,7 +38,7 @@ $x-width: calc($hamburger-height * 1.41421356237);
     content: "";
     width: clamp(calc($bar-width / 2), 10vw, $bar-width);
     height: clamp(calc($bar-height / 2), 10vw, $bar-height);
-    background-color: $font-color;
+    background-color: $primary;
     border-radius: 9999px;
     transform-origin: left center;
     transition: opacity $animation-timing, width$animation-timing,

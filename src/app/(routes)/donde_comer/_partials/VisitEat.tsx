@@ -10,7 +10,7 @@ const VisitEat = ({ name, description, maps, image }: any) => {
       </div>
       <div className="visitEat__right">
         <div className="visitEat__name">{name}</div>
-        <div className="visitEat__description">{description}</div>
+        {/* <div className="visitEat__description">{description}</div> */}
       </div>
       <div className="visitEat__maps">
         <iframe id="gmap_canvas" src={`${maps}`}></iframe>

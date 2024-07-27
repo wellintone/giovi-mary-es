@@ -6,12 +6,12 @@ const VisitValencia = () => {
   return (
     <div className="visitValencia">
       <div className="visitValencia__eat">
-        <h2 className="visitValencia__title">Dove Mangiare</h2>
+        <h2 className="visitValencia__title">Dónde comer </h2>
         {VisitEatValenciaData.map((visit: any) => (
           <VisitEat
             key={visit.id}
             name={visit.name}
-            description={visit.description}
+            /* description={visit.description} */
             maps={visit.maps}
             image={visit.image}
           />

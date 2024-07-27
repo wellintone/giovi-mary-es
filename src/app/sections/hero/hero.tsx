@@ -10,7 +10,7 @@ const Hero = () => {
         {/*  <h1 className="solution">Mary & Giovi</h1> */}
         <div className="solution">
           <div className="date">02 - 11 - 2024</div>
-          <h1 className="name">Maria y Giovanni</h1>
+          <h1 className="name">María y Giovanni</h1>
         </div>
       </div>
       <AttachmentBg className="hero__bg" bg={MG} />

@@ -53,7 +53,7 @@ const Where2 = () => {
         Muchas gracias!! Os esperamos 😄 Un abrazo,
         <br />
         <div className="where__desc-break"></div>
-        <h2 className="where__names">Maria e Giovanni</h2>
+        <h2 className="where__names">Maria y Giovanni</h2>
         <div className="where__girasoli">
           <Image className="imageGira" src={Girasoli} alt="girasoli" />
         </div>

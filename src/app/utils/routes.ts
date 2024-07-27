@@ -1,5 +1,5 @@
 export const Links: any[] = [
-  { route: "/", name: "Home" },
+  { route: "/", name: "Principal" },
   { route: "/vendras", name: "Vendrás?" },
   { route: "/ubicacion", name: "Ubicación" },
   { route: "/donde_alojarse", name: "Dónde alojarse" },

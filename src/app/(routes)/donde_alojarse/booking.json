@@ -4,21 +4,21 @@
     "name": "HOTEL SH VALENCIA PALACE",
     "code": "BODAMARIAYGIOVANNI",
     "how_to_use": {
-      "desc": "Codice valido via web solamente per prenotazioni dal 1 al 3 novembre. Se si desidera allargare il soggiorno (anticipando e/o posticipando) bisogna contattare direttamente tramite mail indicando le date desiderate e il codice sconto: [placeHolder]",
+      "desc": "Código válido vía web sólo para reservas del 1 al 3 de noviembre. Si desea ampliar su estancia (anticipada y/o aplazada) deberás contactar con el hotel directamente mediante email indicando las fechas deseadas y el código de descuento: [placeHolder]",
       "email": "reservas.valencia.palace@shhoteles.com"
     },
     "prices": [
       {
-        "label": "Stanza doppia superior uso individuale:",
+        "label": "Habitación superior doble - uso individual:",
         "price": "142€"
       },
       {
-        "label": "Stanza doppia superior:",
+        "label": "Habitación superior doble:",
         "price": "156€"
       },
       {
-        "label": "IVA non inclusa",
-        "price": "10% colazione inclusa"
+        "label": "IVA no incluido",
+        "price": "10% Desayuno incluido"
       }
     ],
     "website": "https://www.hotel-valencia-palace.com/",
@@ -29,21 +29,21 @@
     "name": "HOTEL DIMAR",
     "code": "Boda María y Giovanni",
     "how_to_use": {
-      "desc": "La prenotazione si deve realizzare  tramite email indicando le date desiderate e il codice sconto: [placeHolder] Sconto valido per prenotazioni realizzate prima del 1 Ottobre 2024.",
+      "desc": "La reserva deberá realizarse vía email indicando las fechas deseadas y el código de descuento: [placeHolder] Descuento válido para reservas realizadas antes del 1 de octubre de 2024.",
       "email": "reservas@hoteldimar.es"
     },
     "prices": [
       {
-        "label": "Stanza doppia superior uso individuale:",
+        "label": "Habitación superior doble - uso individual:",
         "price": "115€"
       },
       {
-        "label": "Stanza doppia superior:",
-        "price": "130€ iva inclusa"
+        "label": "Habitación superior doble:",
+        "price": "130€ IVA incluido"
       },
       {
-        "label": "Colazione non inclusa:",
-        "price": "15€ x giorno x persona"
+        "label": "Desayuno no incluido:",
+        "price": "15€ x día x persona"
       }
     ],
     "website": "www.hoteldimar.es",
@@ -54,7 +54,7 @@
     "name": "HOTEL BALNEARIO LAS ARENAS",
     "code": "MARIA&GIOVANNI",
     "how_to_use": {
-      "desc": "25% di sconto sul prezzo al momento della prenotazione",
+      "desc": "25% de descuento sobre el precio al reservar",
       "email": "reservas@hoteldimar.es"
     },
     "prices": [],
@@ -66,7 +66,7 @@
     "name": "STAYING VALENCIA",
     "code": "MARIA&GIOVANNI",
     "how_to_use": {
-      "desc": "25% di sconto valido su qualsiasi hotel o appartamento gestito da Stayingvalencia. Valido per prenotazioni comprese tra il 25 Ottobre e il 10 Novembre",
+      "desc": "25% de descuento válido en cualquier hotel o apartamento gestionado por Stayingvalencia.",
       "email": ""
     },
     "prices": [],

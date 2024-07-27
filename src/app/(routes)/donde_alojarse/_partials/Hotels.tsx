@@ -44,13 +44,13 @@ const Hotels = ({
           </div>
         )}
         <div className="code">
-          <div className="code__name">CODICE:</div>
+          <div className="code__name">CÓDIGO:</div>
           <div className="code__body">
             <div className="code__body-code">{code}</div>
           </div>
         </div>
         <div className="code">
-          <div className="code__name">COME FUNZIONA</div>
+          <div className="code__name">CÓMO FUNCIONA</div>
           <div className="code__body">
             <div
               className="code__body-value"
@@ -61,7 +61,7 @@ const Hotels = ({
           </div>
         </div>
         <div className="code">
-          <div className="code__name">PREZZI</div>
+          <div className="code__name">PRECIOS</div>
           <div className="code__body">
             {prices.length
               ? prices.map((price: any, ind: number) => (
@@ -70,7 +70,7 @@ const Hotels = ({
                     <div className="listItem__price">{price.price}</div>
                   </div>
                 ))
-              : "Consultare sul sito internet dell’hotel."}
+              : "Consultar la web del hotel."}
           </div>
         </div>
 

@@ -21,12 +21,12 @@ const Iban = () => {
   };
   return (
     <div className="iban">
-      <h2 className="iban__title">L&apos;Africa ci aspetta</h2>
+      <h2 className="iban__title">África nos espera</h2>
       <div className="iban__body">
         <p className="iban__desc">
-          Celebrare insieme questo giorno sarà per noi il regalo più bello, ma
-          se desiderate contribuire al nostro regalo di nozze ve ne saremmo
-          profondamente grati 💛
+          Celebrar este día juntos será el regalo más importante para nosotros,
+          pero si deseas contribuir con nuestro regalo de bodas te lo
+          agradeceremos profundamente. 💛
         </p>
         <div className="iban__container-data">
           <div className="iban__data">
@@ -37,18 +37,18 @@ const Iban = () => {
                 <Copy />
               </span>
             </div>
-            {copied && <span className="iban__copied"> Iban copiato </span>}
+            {copied && <span className="iban__copied"> Iban copiados </span>}
           </div>
           <div className="iban__data">
-            <div className="iban__data-title">Intestato</div>
+            <div className="iban__data-title">BENEFICIARIO</div>
             <div className="iban__data-names">
               Giovanni Citron <br />
               Maria Mira Aguado
             </div>
           </div>
           <div className="iban__data">
-            <div className="iban__data-title">Causale</div>
-            <div className="iban__data-def">Viaggio di nozze</div>
+            <div className="iban__data-title">ASUNTO</div>
+            <div className="iban__data-def">Viajes novios</div>
           </div>
         </div>
       </div>

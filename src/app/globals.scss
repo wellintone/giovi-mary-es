@@ -24,10 +24,10 @@
 /* PAGES */
 @import "./\(routes\)/visitPlace/visitPlace.module";
 @import "./\(routes\)/visitRestaurant/visitRestaurant.module";
-@import "./\(routes\)/place/place.module";
-@import "./\(routes\)/gift/gift.module";
-@import "./\(routes\)/booking/booking.module";
-@import "./\(routes\)/participant/participant.module";
+@import "./\(routes\)/ubicacion/ubicacion.module";
+@import "./\(routes\)/regalo/regalo.module";
+@import "./\(routes\)/donde_alojarse/donde_alojarse.module";
+@import "./\(routes\)/vendras/vendras.module";
 .home {
   position: relative;
   font-size: 90px;

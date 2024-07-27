@@ -22,36 +22,35 @@ const Where2 = () => {
       {/*  <div className="where__bg">
         <Bg className={"where__bg-svg"} />
       </div> */}
-      <h2 className="where__title">Il grande giorno</h2>
+      <h2 className="where__title">El gran día</h2>
 
       {/*  <span className="where__rings">
         <RingsSvg className="where__rings-svg" />
       </span> */}
       <div className="where__desc">
-        Detto (sí) fatto...
+        Dicho ( sí ) y hecho…
         <br />
-        CI SPOSIAMO!!
-        <br />
-        <div className="where__desc-break"></div>
-        Chi l avrebbe mai detto che dopo quel volo la vita avrebbe fatto
-        incrociare il nostro cammino una volta ancora.
+        NOS CASAMOS!
         <br />
         <div className="where__desc-break"></div>
-        Da lì, inseparabili 😄
+        Quién hubiera pensado que después de aquel vuelo, la vida nos hubiera
+        llevado a cruzar nuestros caminos de nuevo.
         <br />
         <div className="where__desc-break"></div>
-        Ora siamo qui, felici di celebrare il nostro amore con tutti voi.
+        Desde entonces, inseparables 😄
         <br />
         <div className="where__desc-break"></div>
-        In vista del grande giorno abbiamo creato questo sito dove puoi trovare
-        tutte le informazioni utili ed eventuali aggiornamenti.
+        Ahora estamos aquí, felices de celebrar nuestro amor con todos vosotros.
         <br />
         <div className="where__desc-break"></div>
-        Per favore, conferma la presenza il prima possibile: ci renderai piú
-        facile l organizzazione.
+        Para el gran día hemos creado esta web donde podréis encontrar toda la
+        información que esperamos os sea útil.
         <br />
         <div className="where__desc-break"></div>
-        Grazie mille! Vi aspettiamo! Un abbraccio,
+        Os agradeceríamos confirmarais vuestra asistencia cuanto antes!
+        <br />
+        <div className="where__desc-break"></div>
+        Muchas gracias!! Os esperamos 😄 Un abrazo,
         <br />
         <div className="where__desc-break"></div>
         <h2 className="where__names">Maria e Giovanni</h2>
@@ -65,23 +64,23 @@ const Where2 = () => {
           variant={BUTTON_VARIANTS.PrimaryVariant}
           size={BUTTON_SIZES.Large}
           hasShadow={true}
-          onClick={() => router.push("/participant")}
+          onClick={() => router.push("/vendras")}
         >
-          Ci Sarai?
+          Vendrás?
         </Button>
         <Button
           variant={BUTTON_VARIANTS.PrimaryVariant}
           size={BUTTON_SIZES.Large}
           hasShadow={true}
-          onClick={() => router.push("/place")}
+          onClick={() => router.push("/ubicacion")}
         >
-          Location
+          Ubicación
         </Button>
         <Button
           variant={BUTTON_VARIANTS.PrimaryVariant}
           size={BUTTON_SIZES.Large}
           hasShadow={true}
-          onClick={() => router.push("/gift")}
+          onClick={() => router.push("/regalo")}
         >
           Regalo
         </Button>

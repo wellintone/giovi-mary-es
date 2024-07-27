@@ -3,18 +3,18 @@ import Image from "next/image";
 import ChurchImg from "/public/img/church.jpg";
 import Location from "/public/img/ricevimento.webp";
 
-const Place = () => {
+const Ubicacion = () => {
   return (
     <>
-      <div className="place">
-        <h2 className="place__title">DOVE CI SPOSIAMO</h2>
-        <div className="place__data">
-          <div className="place__data-title">Chiesa</div>
-          <div className="place__data-cont-def">
-            <div className="place__data-def">Iglesia de San Bartolomé</div>
-            <div className="place__data-church">
+      <div className="ubicacion">
+        <h2 className="ubicacion__title">DÓNDE NOS CASAMOS </h2>
+        <div className="ubicacion__data">
+          <div className="ubicacion__data-title">IGLESIA</div>
+          <div className="ubicacion__data-cont-def">
+            <div className="ubicacion__data-def">Iglesia de San Bartolomé</div>
+            <div className="ubicacion__data-church">
               <Image
-                className="place__data-church__img"
+                className="ubicacion__data-church__img"
                 src={ChurchImg}
                 fill
                 alt="church"
@@ -22,24 +22,23 @@ const Place = () => {
             </div>
           </div>
         </div>
-        <div className="place__data">
-          <div className="place__data-title">Orario</div>
-          <div className="place__data-cont-def">
-            <div className="place__data-def">H 12:00</div>
-            <div className="place__data-def">
-              Vi consigliamo di arrivare almeno 15 minuti prima dell inizio
-              della cerimonia
+        <div className="ubicacion__data">
+          <div className="ubicacion__data-title">HORARIO</div>
+          <div className="ubicacion__data-cont-def">
+            <div className="ubicacion__data-def">12:00h</div>
+            <div className="ubicacion__data-def">
+              Os aconsejamos llegar 15 minutos antes de la ceremonia
             </div>
           </div>
         </div>
-        <div className="place__data">
-          <div className="place__data-title">Indirizzo</div>
-          <div className="place__data-cont-def">
-            <div className="place__data-def">
+        <div className="ubicacion__data">
+          <div className="ubicacion__data-title">DIRECCIÓN</div>
+          <div className="ubicacion__data-cont-def">
+            <div className="ubicacion__data-def">
               C. Major, 61T, 46110 Godella, Valencia, Spagna
             </div>
             <iframe
-              className="place__data-map"
+              className="ubicacion__data-map"
               id="gmap_canvas"
               src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=C.%20Major,%2061T,%20Godella,%20Valencia,%20Spagna%20Valencia+(Iglesia%20SAN%20BARTOLOME)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             ></iframe>{" "}
@@ -47,9 +46,9 @@ const Place = () => {
         </div>
       </div>
       <div className="receiving">
-        <h2 className="receiving__title">DOVE FESTEGGIAMO</h2>
+        <h2 className="receiving__title">DÓNDE CELEBRAMOS</h2>
         <div className="receiving__data">
-          <div className="receiving__data-title">Luogo Ricevimento</div>
+          <div className="receiving__data-title">LUGAR DEL CONVITE</div>
           <div className="receiving__data-cont-def">
             <div className="receiving__data-def">Masia del Carmen</div>
             <div className="receiving__data-church">
@@ -63,13 +62,13 @@ const Place = () => {
           </div>
         </div>
         <div className="receiving__data">
-          <div className="receiving__data-title">Orario</div>
+          <div className="receiving__data-title">HORARIO</div>
           <div className="receiving__data-cont-def">
             <div className="receiving__data-def">H 14:00</div>
           </div>
         </div>
         <div className="receiving__data">
-          <div className="receiving__data-title">Indirizzo</div>
+          <div className="receiving__data-title">DIRECCIÓN</div>
           <div className="receiving__data-cont-def">
             <div className="receiving__data-def">
               CV-310, s/n, 46002 Masarrochos, Valencia, Spagna
@@ -86,4 +85,4 @@ const Place = () => {
   );
 };
 
-export default Place;
+export default Ubicacion;

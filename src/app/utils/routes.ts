@@ -1,9 +1,9 @@
 export const Links: any[] = [
   { route: "/", name: "Home" },
-  { route: "/participant", name: "Ci sarai?" },
-  { route: "/place", name: "Location" },
-  { route: "/booking", name: "Dove dormire" },
+  { route: "/vendras", name: "Vendrás?" },
+  { route: "/ubicacion", name: "Ubicación" },
+  { route: "/donde_alojarse", name: "Dónde alojarse" },
   { route: "/visitPlace", name: "Visita Valencia" },
   { route: "/visitRestaurant", name: "Dove Mangiare" },
-  { route: "/gift", name: "Regalo" },
+  { route: "/regalo", name: "Regalo" },
 ];

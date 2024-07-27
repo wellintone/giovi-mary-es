@@ -10,7 +10,7 @@ export const CountdownTimer = ({ targetDate }: any) => {
 
   const daysLeft = useCountdownDay(targetDate);
 
-  return <div className="show-counter">Mancano solo {daysLeft} giorni</div>;
+  return <div className="show-counter">Faltan solo {daysLeft} días</div>;
 
   /* if (days + hours + minutes + seconds <= 0) {
     return <ExpiredNotice />;

@@ -6,6 +6,7 @@ export default function Home() {
     <main className="home">
       <Hero />
       <Where2 />
+      ESPANIOL
     </main>
   );
 }
